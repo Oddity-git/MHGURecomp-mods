@@ -8,7 +8,6 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 
 | Mod | Author | Download | Tested recomp version | Platform | Notes |
 | --- | --- | --- | --- | --- | --- |
-| [MH4U port to MHGU](mods/mh4u-port/README.md) | Scrimas | [GitHub](https://github.com/Scrimas/MH4U-port-to-MHGU) | TBD | TBD | |
 
 ## Installing mods
 
