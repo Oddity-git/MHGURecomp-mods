@@ -17,11 +17,9 @@ and the versions and platforms it has been tested on.
 
 <h2 align="center">Installing mods</h2>
 
-<p align="center">Every mod here is for MHGU 1.4.0, the game's final update, which MHGU Recomp requires.<br>
-MHGU Recomp loads mods from a <code>mods</code> folder next to the recomp executable.<br>
-Each mod gets its own folder:</p>
+Every mod here is for MHGU 1.4.0, the game's final update, which MHGU Recomp requires.
 
-<div align="center">
+MHGU Recomp loads mods from a `mods` folder next to the recomp executable. Each mod gets its own folder:
 
 ```
 mods/
@@ -30,11 +28,7 @@ mods/
     └── exefs/   # exefs patches
 ```
 
-</div>
-
-<p align="center">Most mods only use one of the two folders. If a mod was packaged for an emulator<br>
-(for example a Yuzu or Ryujinx <code>romfs</code>/<code>exefs</code> layout), copy those folders into <code>mods/&lt;mod-name&gt;/</code>.<br>
-Check the mod's page here for anything specific to it.</p>
+Most mods only use one of the two folders. If a mod was packaged for an emulator (for example a Yuzu or Ryujinx `romfs`/`exefs` layout), copy those folders into `mods/<mod-name>/`. Check the mod's page here for anything specific to it.
 
 <h2 align="center">Mod list</h2>
 
@@ -273,12 +267,9 @@ Each mod card says whether it requires Forge.</p>
 <a href="../../issues/new?template=submit-cheat.yml"><img src="https://img.shields.io/badge/Submit-a%20cheat-f0883e?style=for-the-badge" alt="Submit a cheat"></a>
 </p>
 
-<p align="center">Cheats tested with MHGU Recomp.<br>
-<b>Installing a cheat:</b> add the cheat's text to your cheat file. This is the same for every cheat.</p>
+Cheats tested with MHGU Recomp. **Installing a cheat:** add the cheat's text to your cheat file. This is the same for every cheat.
 
-<p align="center"><b>Please use cheats responsibly.</b> They're meant for single-player,<br>
-or for multiplayer where everyone in the session has agreed to them.<br>
-Don't use them to spoil other people's games.</p>
+**Please use cheats responsibly.** They're meant for single-player, or for multiplayer where everyone in the session has agreed to them. Don't use them to spoil other people's games.
 
 <!-- cheats:start -->
 
