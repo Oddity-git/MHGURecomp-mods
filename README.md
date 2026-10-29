@@ -213,6 +213,21 @@ Each mod card says whether it requires Forge.</p>
 
 <table>
 <tr>
+<td align="center" width="380"><a href="mods/uiscale-hud-scale-and-layout-editor/preview.jpg"><img src="mods/uiscale-hud-scale-and-layout-editor/card.jpg" width="360" alt="uiscale-hud-scale-and-layout-editor preview"></a></td>
+<td width="520">
+<h3><a href="mods/uiscale-hud-scale-and-layout-editor/README.md">UIScale - HUD Scale and Layout Editor</a> 🟢</h3>
+<b>Author:</b> Katt404<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/732711">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes<br>
+<b>Tested recomp version:</b> 0.10.7<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/uiscale-hud-scale-and-layout-editor/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><a href="mods/xbox-layout/preview.jpg"><img src="mods/xbox-layout/card.jpg" width="360" alt="xbox-layout preview"></a></td>
 <td width="520">
 <h3><a href="mods/xbox-layout/README.md">Xbox Controller Layout</a> 🟢</h3>
