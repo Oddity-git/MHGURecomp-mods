@@ -6,15 +6,25 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 
 ## Mod list
 
-| Mod | Author | Download | Tested recomp version | Platform | Notes |
-| --- | --- | --- | --- | --- | --- |
-| [Better Inputs](mods/better-inputs/README.md) | Fexty12573 | [GameBanana](https://gamebanana.com/mods/689270) | TBD | Linux | |
-| [Damage Numbers](mods/damage-numbers/README.md) | PurplefinNeptuna | [GameBanana](https://gamebanana.com/mods/725408) | TBD | Linux | |
-| [FF14-style Damage Text](mods/ff14-damage-text/README.md) | Filianore | [GameBanana](https://gamebanana.com/mods/727751) | TBD | Linux | |
-| [Full DualShock Buttons](mods/dualshock-buttons/README.md) | Abbanon | [GameBanana](https://gamebanana.com/mods/475878) | TBD | Linux | |
-| [Key Quest Markers](mods/key-quest-markers/README.md) | PurplefinNeptuna | [GameBanana](https://gamebanana.com/mods/727960) | TBD | Linux | |
-| [Monster Weakness Icons](mods/weakness-icons/README.md) | Potobc | [GameBanana](https://gamebanana.com/mods/488552) | TBD | Linux | |
-| [Xbox Controller Layout](mods/xbox-layout/README.md) | ishiki | [GameBanana](https://gamebanana.com/mods/410801) | TBD | Linux | |
+### Compatibility status
+
+| Status | Meaning |
+| :---: | --- |
+| 🟢 | Full compatibility: everything the mod does works with the recomp. |
+| 🟡 | Partial: the mod loads, but some of its features are missing or broken. |
+| 🔴 | Broken: the mod doesn't work, or crashes the game. |
+
+### Mods
+
+| Preview | Mod | Status | Author | Download | Tested recomp version | Platform |
+| :---: | --- | :---: | --- | --- | --- | --- |
+| — | [Better Inputs](mods/better-inputs/README.md) | 🟢 | Fexty12573 | [GameBanana](https://gamebanana.com/mods/689270) | TBD | Linux |
+| — | [Damage Numbers](mods/damage-numbers/README.md) | 🟢 | PurplefinNeptuna | [GameBanana](https://gamebanana.com/mods/725408) | TBD | Linux |
+| — | [FF14-style Damage Text](mods/ff14-damage-text/README.md) | 🟢 | Filianore | [GameBanana](https://gamebanana.com/mods/727751) | TBD | Linux |
+| — | [Full DualShock Buttons](mods/dualshock-buttons/README.md) | 🟢 | Abbanon | [GameBanana](https://gamebanana.com/mods/475878) | TBD | Linux |
+| — | [Key Quest Markers](mods/key-quest-markers/README.md) | 🟢 | PurplefinNeptuna | [GameBanana](https://gamebanana.com/mods/727960) | TBD | Linux |
+| — | [Monster Weakness Icons](mods/weakness-icons/README.md) | 🟢 | Potobc | [GameBanana](https://gamebanana.com/mods/488552) | TBD | Linux |
+| — | [Xbox Controller Layout](mods/xbox-layout/README.md) | 🟢 | ishiki | [GameBanana](https://gamebanana.com/mods/410801) | TBD | Linux |
 
 ## Installing mods
 

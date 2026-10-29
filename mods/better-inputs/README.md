@@ -1,8 +1,9 @@
 # Better Inputs
 
-**Author:** Fexty12573
-**Download:** [GameBanana](https://gamebanana.com/mods/689270)
-**Mod license:** see the mod's GameBanana page
+- **Author:** Fexty12573
+- **Download:** [GameBanana](https://gamebanana.com/mods/689270)
+- **Mod license:** see the mod's GameBanana page
+- **Status:** 🟢 Full compatibility
 
 ## Description
 

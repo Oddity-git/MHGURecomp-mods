@@ -1,8 +1,9 @@
 # Monster Weakness Icons
 
-**Author:** Potobc
-**Download:** [GameBanana](https://gamebanana.com/mods/488552)
-**Mod license:** see the mod's GameBanana page
+- **Author:** Potobc
+- **Download:** [GameBanana](https://gamebanana.com/mods/488552)
+- **Mod license:** see the mod's GameBanana page
+- **Status:** 🟢 Full compatibility
 
 ## Description
 
