@@ -33,9 +33,9 @@ and the versions and platforms it has been tested on.
 
 </div>
 
-<h3 align="center">Start here: Forge</h3>
+<h3 align="center">Dependencies</h3>
 
-<p align="center">Forge is the plugin loader that many of the mods below need. Install it first.<br>
+<p align="center">These aren't mods you play with on their own, but many of the mods below need them. Install them first.<br>
 Each mod card says whether it requires Forge.</p>
 
 <div align="center">
@@ -50,6 +50,21 @@ Each mod card says whether it requires Forge.</p>
 <b>Tested recomp version:</b> 0.9.1.0<br>
 <b>Tested platform:</b> Linux<br>
 <a href="mods/forge/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center" width="380"><sub>No preview yet</sub></td>
+<td width="520">
+<h3><a href="mods/katlib/README.md">KatLib</a> 🟢</h3>
+<b>Author:</b> Katt404<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/732712">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes<br>
+<b>Tested recomp version:</b> TBD<br>
+<b>Tested platform:</b> Linux (CachyOS)<br>
+<a href="mods/katlib/README.md">Install steps and details</a>
 </td>
 </tr>
 </table>
