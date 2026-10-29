@@ -231,6 +231,10 @@ Each mod card says whether it requires Forge.</p>
 
 <h2 align="center">Cheats</h2>
 
+<p align="center"><b>Please use cheats responsibly.</b> They're meant for single-player,<br>
+or for multiplayer where everyone in the session has agreed to them.<br>
+Don't use them to spoil other people's games.</p>
+
 <p align="center">Cheats tested with MHGU Recomp.<br>
 Have one? <a href="../../issues/new?template=submit-cheat.yml">Submit a cheat</a>.</p>
 

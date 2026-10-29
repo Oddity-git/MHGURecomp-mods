@@ -23,7 +23,7 @@ Open a pull request with your changes. One mod per pull request is easiest to re
 
 ## Submitting a cheat
 
-Use the [Submit a cheat form](../../issues/new?template=submit-cheat.yml). Only submit cheats you have tested yourself. A maintainer adds them to the Cheats section.
+Use the [Submit a cheat form](../../issues/new?template=submit-cheat.yml). Only submit cheats you have tested yourself. A maintainer adds them to the Cheats section. Cheats are meant for single-player, or for multiplayer where everyone in the session has agreed to them.
 
 ## Reporting a problem with a mod
 

@@ -7,6 +7,7 @@ body:
       value: |
         Thanks for contributing! Only submit cheats you have tested yourself.
         A maintainer will add it to the Cheats section.
+        Cheats are meant for single-player, or for multiplayer where everyone in the session has agreed to them.
   - type: input
     id: cheat_name
     attributes:
