@@ -63,6 +63,13 @@ body:
     validations:
       required: false
   - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot (optional)
+      description: Drag an image into this box to show it on the mod's card. If you leave it empty, the bot tries the mod page's own images.
+    validations:
+      required: false
+  - type: textarea
     id: issues
     attributes:
       label: Known issues

@@ -10,7 +10,7 @@ import re
 import sys
 from pathlib import Path
 
-from fetch_previews import API, ROOT, get, update_card
+from fetch_previews import API, ROOT, get
 
 STATUS = {"🟢": "🟢", "🟡": "🟡", "🔴": "🔴"}
 GAMEBANANA = re.compile(r"^https://(?:www\.)?gamebanana\.com/mods/(\d+)/?$")
@@ -89,7 +89,7 @@ def card(name, slug, status, author, source, url, version, platform, forge, with
 
 
 def page(name, slug, status, status_text, author, source, url, description, version, platform, issues, forge):
-    preview_line = "![Preview](preview.jpg)\n\n" if source == "GameBanana" else ""
+    preview_line = ""  # the preview is added once an image is found
     return f'''# {name}
 
 - **Author:** {author}
@@ -159,9 +159,8 @@ def main():
     source, url = classify(fields.get("Mod link", ""))
     name, author, description = mod_info(source, url)
     slug = build(fields, name, author, source, url, description)
-    if source == "GameBanana":
-        import fetch_previews
-        fetch_previews.main({slug})
+    import fetch_previews
+    fetch_previews.main({slug}, fields.get("Screenshot", ""))
     print(slug)
 
 
