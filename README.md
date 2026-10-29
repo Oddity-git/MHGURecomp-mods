@@ -16,11 +16,16 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 
 <h3 align="center">Compatibility status</h3>
 
-| Status | Meaning |
-| :---: | :--- |
-| 🟢 | Full compatibility: everything the mod does works with the recomp. |
-| 🟡 | Partial: the mod loads, but some of its features are missing or broken. |
-| 🔴 | Broken: the mod doesn't work, or crashes the game. |
+<div align="center">
+
+<table>
+<tr><th>Status</th><th>Meaning</th></tr>
+<tr><td align="center">🟢</td><td>Full compatibility: everything the mod does works with the recomp.</td></tr>
+<tr><td align="center">🟡</td><td>Partial: the mod loads, but some of its features are missing or broken.</td></tr>
+<tr><td align="center">🔴</td><td>Broken: the mod doesn't work, or crashes the game.</td></tr>
+</table>
+
+</div>
 
 <h3 align="center">Start here: Forge</h3>
 
