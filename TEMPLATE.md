@@ -5,7 +5,7 @@
 - **Mod license:** <the author's license, or "not stated">
 - **Status:** <🟢 Full compatibility / 🟡 Some features missing / 🔴 Broken>
 
-![Preview](preview.png)
+![Preview](preview.jpg)
 
 ## Description
 
@@ -13,7 +13,7 @@
 
 ## Tested with
 
-| Recomp version or commit | Game version | Platform | Tested by | Date |
+| Recomp version or commit | Game version | Tested platform | Tested by | Date |
 | --- | --- | --- | --- | --- |
 | <e.g. v0.1.0 or abc1234> | <e.g. 1.4.0> | <Linux / Windows / Steam Deck> | <GitHub username> | <YYYY-MM-DD> |
 

@@ -1,25 +1,26 @@
-# MHGURecomp-mods
+<h1 align="center">MHGURecomp-mods</h1>
 
-A curated directory of mods tested with [MHGU Recomp](https://github.com/morerokk/MHGURecomp), with links to each mod's download page, install steps, and the versions and platforms they're confirmed to work on.
-
+<p align="center">
+A curated directory of mods tested with <a href="https://github.com/morerokk/MHGURecomp">MHGU Recomp</a>, with links to each mod's download page, install steps, and the versions and platforms they've been tested on.<br>
 This repository only holds links and notes. No mod files are hosted here: download each mod from the page its author published it on.
+</p>
 
-## Mod list
+<h2 align="center">Mod list</h2>
 
-### Compatibility status
+<h3 align="center">Compatibility status</h3>
 
 | Status | Meaning |
-| :---: | --- |
+| :---: | :--- |
 | 🟢 | Full compatibility: everything the mod does works with the recomp. |
 | 🟡 | Partial: the mod loads, but some of its features are missing or broken. |
 | 🔴 | Broken: the mod doesn't work, or crashes the game. |
 
-### Mods
+<h3 align="center">Mods</h3>
 
-| Preview | Mod | Status | Author | Download | Tested recomp version | Platform |
-| :---: | --- | :---: | --- | --- | --- | --- |
-| — | [Better Inputs](mods/better-inputs/README.md) | 🟢 | Fexty12573 | [GameBanana](https://gamebanana.com/mods/689270) | TBD | Linux |
-| — | [Damage Numbers](mods/damage-numbers/README.md) | 🟢 | PurplefinNeptuna | [GameBanana](https://gamebanana.com/mods/725408) | TBD | Linux |
+| Preview | Mod | Status | Author | Download | Tested recomp version | Tested platform |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <details><summary><img src="mods/better-inputs/preview.jpg" width="120" alt="better-inputs preview"></summary><img src="mods/better-inputs/preview.jpg" width="640" alt="better-inputs preview, expanded"></details> | [Better Inputs](mods/better-inputs/README.md) | 🟢 | Fexty12573 | [GameBanana](https://gamebanana.com/mods/689270) | TBD | Linux |
+| <details><summary><img src="mods/damage-numbers/preview.jpg" width="120" alt="damage-numbers preview"></summary><img src="mods/damage-numbers/preview.jpg" width="640" alt="damage-numbers preview, expanded"></details> | [Damage Numbers](mods/damage-numbers/README.md) | 🟢 | PurplefinNeptuna | [GameBanana](https://gamebanana.com/mods/725408) | TBD | Linux |
 | — | [FF14-style Damage Text](mods/ff14-damage-text/README.md) | 🟢 | Filianore | [GameBanana](https://gamebanana.com/mods/727751) | TBD | Linux |
 | — | [Full DualShock Buttons](mods/dualshock-buttons/README.md) | 🟢 | Abbanon | [GameBanana](https://gamebanana.com/mods/475878) | TBD | Linux |
 | — | [Key Quest Markers](mods/key-quest-markers/README.md) | 🟢 | PurplefinNeptuna | [GameBanana](https://gamebanana.com/mods/727960) | TBD | Linux |
