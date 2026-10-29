@@ -88,7 +88,7 @@ def card(name, slug, status, author, source, url, version, platform, forge, with
 '''
 
 
-def page(name, slug, status, status_text, author, source, url, description, version, game, platform, issues, forge):
+def page(name, slug, status, status_text, author, source, url, description, version, platform, issues, forge):
     preview_line = "![Preview](preview.jpg)\n\n" if source == "GameBanana" else ""
     return f'''# {name}
 
@@ -103,9 +103,9 @@ def page(name, slug, status, status_text, author, source, url, description, vers
 
 ## Tested with
 
-| Recomp version or commit | Game version | Tested platform |
-| --- | --- | --- |
-| {version} | {game or "not stated"} | {platform} |
+| Recomp version or commit | Tested platform |
+| --- | --- |
+| {version} | {platform} |
 
 ## Install
 
@@ -143,11 +143,10 @@ def build(fields, name, author, source, url, description="", root=ROOT):
         sys.exit('Please describe the problems under "Known issues" for a 🟡 or 🔴 mod.')
     version = fields["MHGU Recomp version tested"].strip()
     platform = fields["Tested platform"].strip()
-    game = fields.get("Game version tested", "").strip()
     folder = root / "mods" / slug
     folder.mkdir(parents=True)
     (folder / "README.md").write_text(
-        page(name, slug, status, status_label, author, source, url, description, version, game, platform, issues, forge_text(fields)),
+        page(name, slug, status, status_label, author, source, url, description, version, platform, issues, forge_text(fields)),
         encoding="utf-8")
     readme_path.write_text(
         insert_card(readme, name, card(name, slug, status, author, source, url, version, platform, forge_text(fields), False)),

@@ -171,6 +171,8 @@ Each mod card says whether it requires Forge.</p>
 
 ## Installing mods
 
+Every mod here is for MHGU 1.4.0, the game's final update, which MHGU Recomp requires, so game versions aren't listed.
+
 MHGU Recomp loads mods from a `mods` folder next to the recomp executable. Each mod gets its own folder:
 
 ```

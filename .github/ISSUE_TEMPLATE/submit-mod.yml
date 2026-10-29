@@ -23,13 +23,6 @@ body:
       placeholder: "0.9.10"
     validations:
       required: true
-  - type: input
-    id: game_version
-    attributes:
-      label: Game version tested
-      placeholder: "1.4.0"
-    validations:
-      required: false
   - type: dropdown
     id: platform
     attributes:

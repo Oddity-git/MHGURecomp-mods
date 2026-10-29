@@ -14,9 +14,9 @@
 
 ## Tested with
 
-| Recomp version or commit | Game version | Tested platform | Tested by | Date |
-| --- | --- | --- | --- | --- |
-| <e.g. v0.1.0 or abc1234> | <e.g. 1.4.0> | <Linux / Windows / Steam Deck> | <GitHub username> | <YYYY-MM-DD> |
+| Recomp version or commit | Tested platform | Tested by | Date |
+| --- | --- | --- | --- |
+| <e.g. v0.1.0 or abc1234> | <Linux / Windows / Steam Deck> | <GitHub username> | <YYYY-MM-DD> |
 
 ## Install
 

@@ -12,9 +12,9 @@ Replaces the button prompts with Xbox controller buttons.
 
 ## Tested with
 
-| Recomp version or commit | Game version | Tested platform | Tested by | Date |
-| --- | --- | --- | --- | --- |
-| TBD | TBD | Linux (CachyOS) | Oddity-git | TBD |
+| Recomp version or commit | Tested platform | Tested by | Date |
+| --- | --- | --- | --- |
+| TBD | Linux (CachyOS) | Oddity-git | TBD |
 
 ## Install
 
