@@ -1,0 +1,25 @@
+# Key Quest Markers
+
+**Author:** PurplefinNeptuna
+**Download:** [GameBanana](https://gamebanana.com/mods/727960)
+**Mod license:** see the mod's GameBanana page
+
+## Description
+
+Marks key and urgent quests in the quest list.
+
+## Tested with
+
+| Recomp version or commit | Game version | Platform | Tested by | Date |
+| --- | --- | --- | --- | --- |
+| TBD | TBD | Linux (CachyOS) | Oddity-git | TBD |
+
+## Install
+
+1. Download the mod from the link above.
+2. Create `mods/key-quest-markers/` in your MHGU Recomp folder.
+3. Copy the mod's `romfs` folder into `mods/key-quest-markers/`.
+
+## Known issues
+
+None known.
