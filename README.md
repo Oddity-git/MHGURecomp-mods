@@ -2,10 +2,7 @@
 
 <p align="center">
 <a href="https://github.com/morerokk/MHGURecomp/releases/latest"><img src="https://img.shields.io/github/v/release/morerokk/MHGURecomp?style=flat&label=MHGU%20Recomp&color=2ea44f" alt="Latest MHGU Recomp version"></a>
-<a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contribute-add%20a%20mod-1f6feb?style=flat" alt="Contribute a mod"></a>
 <a href="https://github.com/morerokk/MHGURecomp"><img src="https://img.shields.io/badge/MHGU%20Recomp-source-6e5494?style=flat&logo=github" alt="MHGU Recomp repository"></a>
-<a href="../../issues/new?template=report-mod-issue.yml"><img src="https://img.shields.io/badge/Report-a%20mod%20issue-d73a49?style=flat" alt="Report a mod issue"></a>
-<a href="../../issues/new?template=submit-cheat.yml"><img src="https://img.shields.io/badge/Submit-a%20cheat-f0883e?style=flat" alt="Submit a cheat"></a>
 </p>
 
 <p align="center">
@@ -19,6 +16,11 @@ and the versions and platforms it has been tested on.
 </p>
 
 <h2 align="center">Mod list</h2>
+
+<p align="center">
+<a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contribute-add%20a%20mod-1f6feb?style=for-the-badge" alt="Contribute a mod"></a>
+<a href="../../issues/new?template=report-mod-issue.yml"><img src="https://img.shields.io/badge/Report-a%20mod%20issue-d73a49?style=for-the-badge" alt="Report a mod issue"></a>
+</p>
 
 <h3 align="center">Compatibility status</h3>
 
@@ -246,12 +248,15 @@ Each mod card says whether it requires Forge.</p>
 
 <h2 align="center">Cheats</h2>
 
+<p align="center">
+<a href="../../issues/new?template=submit-cheat.yml"><img src="https://img.shields.io/badge/Submit-a%20cheat-f0883e?style=for-the-badge" alt="Submit a cheat"></a>
+</p>
+
 <p align="center"><b>Please use cheats responsibly.</b> They're meant for single-player,<br>
 or for multiplayer where everyone in the session has agreed to them.<br>
 Don't use them to spoil other people's games.</p>
 
-<p align="center">Cheats tested with MHGU Recomp.<br>
-Have one? <a href="../../issues/new?template=submit-cheat.yml">Submit a cheat</a>.</p>
+<p align="center">Cheats tested with MHGU Recomp.</p>
 
 <p align="center"><b>Installing a cheat:</b> add the cheat's text to your cheat file.<br>
 This is the same for every cheat, so entries here don't repeat it.</p>
