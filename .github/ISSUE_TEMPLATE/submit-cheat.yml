@@ -48,12 +48,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: how_to_use
-    attributes:
-      label: How to install or enable it
-    validations:
-      required: true
-  - type: textarea
     id: known_issues
     attributes:
       label: Known issues

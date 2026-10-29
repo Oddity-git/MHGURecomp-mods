@@ -238,6 +238,9 @@ Don't use them to spoil other people's games.</p>
 <p align="center">Cheats tested with MHGU Recomp.<br>
 Have one? <a href="../../issues/new?template=submit-cheat.yml">Submit a cheat</a>.</p>
 
+<p align="center"><b>Installing a cheat:</b> add the cheat's text to your cheat file.<br>
+This is the same for every cheat, so entries here don't repeat it.</p>
+
 <p align="center"><sub>No cheats listed yet.</sub></p>
 
 ## Installing mods
