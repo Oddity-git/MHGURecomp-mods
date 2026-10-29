@@ -138,6 +138,21 @@ Each mod card says whether it requires Forge.</p>
 
 <table>
 <tr>
+<td align="center" width="380"><sub>No preview yet</sub></td>
+<td width="520">
+<h3><a href="mods/mhgu-hd-project/README.md">MHGU HD Project</a> 🟢</h3>
+<b>Author:</b> Monkbreh<br>
+<b>Download:</b> <a href="https://github.com/Monkbreh/MHGU-HD-Project">GitHub</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> No<br>
+<b>Tested recomp version:</b> 0.10.7<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/mhgu-hd-project/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><img src="mods/mhgu-xx-rebalanced/preview.jpg" width="360" alt="mhgu-xx-rebalanced preview"></td>
 <td width="520">
 <h3><a href="mods/mhgu-xx-rebalanced/README.md">MHGU/XX Rebalanced</a> 🟢</h3>
