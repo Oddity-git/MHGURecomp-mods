@@ -1,0 +1,50 @@
+name: Add submitted cheat
+
+on:
+  issues:
+    types: [opened, reopened]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  add:
+    if: contains(github.event.issue.body, '### Cheat name')
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+      # Issue text comes from outside, so it only ever reaches the shell
+      # through environment variables, never through ${{ }} in a script.
+      ISSUE_BODY: ${{ github.event.issue.body }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - name: Add the cheat to the README
+        run: |
+          if ! out=$(python scripts/add_cheat.py 2>&1); then
+            gh issue comment "$ISSUE_NUMBER" --body "Sorry, I couldn't add this cheat: $(echo "$out" | tail -1). Edit the issue and I'll try again, or open a new submission."
+            exit 1
+          fi
+      - name: Open a pull request
+        run: |
+          branch="submit-cheat-$ISSUE_NUMBER"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add -A
+          git commit -m "Add cheat (from #$ISSUE_NUMBER)"
+          git push origin "$branch"
+          if gh pr create --base main --head "$branch" \
+               --title "Add cheat from #$ISSUE_NUMBER" \
+               --body "Adds the cheat submitted in #$ISSUE_NUMBER."; then
+            pr=$(gh pr list --head "$branch" --json url --jq '.[0].url')
+            gh issue close "$ISSUE_NUMBER" --reason completed --comment "Thanks! The cheat is ready for review in $pr, so I'm closing this form submission."
+          else
+            gh issue comment "$ISSUE_NUMBER" --body "I've prepared the cheat on branch \`$branch\`, but could not open the pull request automatically. A maintainer can open it from there."
+          fi

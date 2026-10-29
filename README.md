@@ -241,7 +241,9 @@ Have one? <a href="../../issues/new?template=submit-cheat.yml">Submit a cheat</a
 <p align="center"><b>Installing a cheat:</b> add the cheat's text to your cheat file.<br>
 This is the same for every cheat, so entries here don't repeat it.</p>
 
+<!-- cheats:start -->
 <p align="center"><sub>No cheats listed yet.</sub></p>
+<!-- cheats:end -->
 
 ## Installing mods
 
