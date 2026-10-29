@@ -49,8 +49,9 @@ jobs:
           git push origin "$branch"
           if gh pr create --base main --head "$branch" \
                --title "Add $name" \
-               --body "Adds the mod submitted in #$ISSUE_NUMBER. Closes #$ISSUE_NUMBER when merged."; then
-            gh issue comment "$ISSUE_NUMBER" --body "Thanks! I've opened a pull request for review."
+               --body "Adds the mod submitted in #$ISSUE_NUMBER."; then
+            pr=$(gh pr list --head "$branch" --json url --jq '.[0].url')
+            gh issue close "$ISSUE_NUMBER" --reason completed --comment "Thanks! The mod page is ready for review in $pr, so I'm closing this form submission."
           else
             gh issue comment "$ISSUE_NUMBER" --body "I've prepared the mod on branch \`$branch\`, but could not open the pull request automatically. A maintainer can open it from there."
           fi
