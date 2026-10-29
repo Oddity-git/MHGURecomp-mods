@@ -1,6 +1,6 @@
 # MHGURecomp-mods
 
-A curated directory of mods tested with [MHGU Recomp](https://github.com/morerokk/MHGURecomp), with links to each mod's download page, install steps, and the versions and platforms they're confirmed to work on.
+A curated directory of mods tested with [MHGU Recomp](https://github.com/morerokk/MHGURecomp), with links to each mod's download page, install steps, and the versions and platforms they've been tested to work on.
 
 This repository only holds links and notes. No mod files are hosted here: download each mod from the page its author published it on.
 
@@ -16,10 +16,10 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 
 ### Mods
 
-| Preview | Mod | Status | Author | Download | Tested recomp version | Platform |
+| Preview | Mod | Status | Author | Download | Tested recomp version | Tested platform |
 | :---: | --- | :---: | --- | --- | --- | --- |
-| — | [Better Inputs](mods/better-inputs/README.md) | 🟢 | Fexty12573 | [GameBanana](https://gamebanana.com/mods/689270) | TBD | Linux |
-| — | [Damage Numbers](mods/damage-numbers/README.md) | 🟢 | PurplefinNeptuna | [GameBanana](https://gamebanana.com/mods/725408) | TBD | Linux |
+| <details><summary><img src="mods/better-inputs/preview.jpg" width="120" alt="better-inputs preview"></summary><img src="mods/better-inputs/preview.jpg" width="640" alt="better-inputs preview, expanded"></details> | [Better Inputs](mods/better-inputs/README.md) | 🟢 | Fexty12573 | [GameBanana](https://gamebanana.com/mods/689270) | TBD | Linux |
+| <details><summary><img src="mods/damage-numbers/preview.jpg" width="120" alt="damage-numbers preview"></summary><img src="mods/damage-numbers/preview.jpg" width="640" alt="damage-numbers preview, expanded"></details> | [Damage Numbers](mods/damage-numbers/README.md) | 🟢 | PurplefinNeptuna | [GameBanana](https://gamebanana.com/mods/725408) | TBD | Linux |
 | — | [FF14-style Damage Text](mods/ff14-damage-text/README.md) | 🟢 | Filianore | [GameBanana](https://gamebanana.com/mods/727751) | TBD | Linux |
 | — | [Full DualShock Buttons](mods/dualshock-buttons/README.md) | 🟢 | Abbanon | [GameBanana](https://gamebanana.com/mods/475878) | TBD | Linux |
 | — | [Key Quest Markers](mods/key-quest-markers/README.md) | 🟢 | PurplefinNeptuna | [GameBanana](https://gamebanana.com/mods/727960) | TBD | Linux |

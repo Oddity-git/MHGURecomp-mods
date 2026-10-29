@@ -5,13 +5,15 @@
 - **Mod license:** see the mod's GameBanana page
 - **Status:** 🟢 Full compatibility
 
+![Preview](preview.jpg)
+
 ## Description
 
 Adds damage number popups, in a Wilds-style or Rise-style look.
 
 ## Tested with
 
-| Recomp version or commit | Game version | Platform | Tested by | Date |
+| Recomp version or commit | Game version | Tested platform | Tested by | Date |
 | --- | --- | --- | --- | --- |
 | TBD | TBD | Linux (CachyOS) | Oddity-git | TBD |
 
