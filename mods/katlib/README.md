@@ -14,9 +14,9 @@ A shared library plugin for Katt404's Forge plugins. It does nothing on its own:
 
 ## Tested with
 
-| Recomp version or commit | Tested platform | Tested by | Date |
-| --- | --- | --- | --- |
-| 0.10.7 | Linux (CachyOS) | Oddity-git | TBD |
+| Recomp version or commit | Tested platform |
+| --- | --- |
+| 0.10.7 | Linux (CachyOS) |
 
 ## Install
 
