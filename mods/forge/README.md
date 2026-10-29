@@ -1,4 +1,4 @@
-# forge
+# Forge
 
 - **Author:** Fexty12573
 - **Download:** [GitHub](https://github.com/Fexty12573/forge)
