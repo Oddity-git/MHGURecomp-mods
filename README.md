@@ -1,8 +1,8 @@
 <h1 align="center">MHGURecomp-mods</h1>
 
 <p align="center">
-<a href="https://github.com/morerokk/MHGURecomp/releases/latest"><img src="https://img.shields.io/github/v/release/morerokk/MHGURecomp?style=flat&label=MHGU%20Recomp&color=2ea44f" alt="Latest MHGU Recomp version"></a>
-<a href="https://github.com/morerokk/MHGURecomp"><img src="https://img.shields.io/badge/MHGU%20Recomp-source-6e5494?style=flat&logo=github" alt="MHGU Recomp repository"></a>
+<a href="https://github.com/morerokk/MHGURecomp/releases/latest"><img src="https://img.shields.io/github/v/release/morerokk/MHGURecomp?style=for-the-badge&label=MHGU%20Recomp&color=2ea44f" alt="Latest MHGU Recomp version"></a>
+<a href="https://github.com/morerokk/MHGURecomp"><img src="https://img.shields.io/badge/MHGU%20Recomp-source-6e5494?style=for-the-badge&logo=github" alt="MHGU Recomp repository"></a>
 </p>
 
 <p align="center">
