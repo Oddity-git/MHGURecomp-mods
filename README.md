@@ -70,6 +70,20 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 
 <table>
 <tr>
+<td align="center" width="380"><sub>No preview yet</sub></td>
+<td width="520">
+<h3><a href="mods/forge/README.md">Forge</a> 🟢</h3>
+<b>Author:</b> Fexty12573<br>
+<b>Download:</b> <a href="https://github.com/Fexty12573/forge">GitHub</a><br>
+<b>Tested recomp version:</b> 0.9.1.0<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/forge/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><img src="mods/dualshock-buttons/preview.jpg" width="360" alt="dualshock-buttons preview"></td>
 <td width="520">
 <h3><a href="mods/dualshock-buttons/README.md">Full DualShock Buttons</a> 🟢</h3>
