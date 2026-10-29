@@ -1,7 +1,6 @@
 name: Submit a mod
 description: Add a mod you have tested with MHGU Recomp to the directory.
 title: "Add mod: "
-labels: ["mod-submission"]
 body:
   - type: markdown
     attributes:

@@ -2,7 +2,7 @@ name: Add submitted mod
 
 on:
   issues:
-    types: [opened]
+    types: [opened, reopened]
 
 permissions:
   contents: write
@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   add:
-    if: contains(github.event.issue.labels.*.name, 'mod-submission')
+    if: contains(github.event.issue.body, '### Mod link')
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ github.token }}
