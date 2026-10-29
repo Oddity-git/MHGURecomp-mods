@@ -17,7 +17,7 @@ and the versions and platforms it has been tested on.
 
 ## Installing mods
 
-Every mod here is for MHGU 1.4.0, the game's final update, which MHGU Recomp requires, so game versions aren't listed.
+Every mod here is for MHGU 1.4.0, the game's final update, which MHGU Recomp requires.
 
 MHGU Recomp loads mods from a `mods` folder next to the recomp executable. Each mod gets its own folder:
 
