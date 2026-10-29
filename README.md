@@ -15,11 +15,13 @@ and the versions and platforms it has been tested on.
 <sub>No mod files are hosted here, only links. Download each mod from its author's page.</sub>
 </p>
 
-## Installing mods
+<h2 align="center">Installing mods</h2>
 
-Every mod here is for MHGU 1.4.0, the game's final update, which MHGU Recomp requires.
+<p align="center">Every mod here is for MHGU 1.4.0, the game's final update, which MHGU Recomp requires.<br>
+MHGU Recomp loads mods from a <code>mods</code> folder next to the recomp executable.<br>
+Each mod gets its own folder:</p>
 
-MHGU Recomp loads mods from a `mods` folder next to the recomp executable. Each mod gets its own folder:
+<div align="center">
 
 ```
 mods/
@@ -28,7 +30,11 @@ mods/
     └── exefs/   # exefs patches
 ```
 
-Most mods only use one of the two folders. If a mod was packaged for an emulator (for example Yuzu or Ryujinx `romfs`/`exefs` layout), copy those folders into `mods/<mod-name>/`. Check the mod's page here for anything specific to it.
+</div>
+
+<p align="center">Most mods only use one of the two folders. If a mod was packaged for an emulator<br>
+(for example a Yuzu or Ryujinx <code>romfs</code>/<code>exefs</code> layout), copy those folders into <code>mods/&lt;mod-name&gt;/</code>.<br>
+Check the mod's page here for anything specific to it.</p>
 
 <h2 align="center">Mod list</h2>
 
@@ -80,7 +86,7 @@ Each mod card says whether it requires Forge.</p>
 <b>Download:</b> <a href="https://gamebanana.com/mods/732712">GameBanana</a><br>
 <b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes<br>
 <b>Tested recomp version:</b> TBD<br>
-<b>Tested platform:</b> Linux (CachyOS)<br>
+<b>Tested platform:</b> Linux<br>
 <a href="mods/katlib/README.md">Install steps and details</a>
 </td>
 </tr>
@@ -267,14 +273,12 @@ Each mod card says whether it requires Forge.</p>
 <a href="../../issues/new?template=submit-cheat.yml"><img src="https://img.shields.io/badge/Submit-a%20cheat-f0883e?style=for-the-badge" alt="Submit a cheat"></a>
 </p>
 
+<p align="center">Cheats tested with MHGU Recomp.<br>
+<b>Installing a cheat:</b> add the cheat's text to your cheat file. This is the same for every cheat.</p>
+
 <p align="center"><b>Please use cheats responsibly.</b> They're meant for single-player,<br>
 or for multiplayer where everyone in the session has agreed to them.<br>
 Don't use them to spoil other people's games.</p>
-
-<p align="center">Cheats tested with MHGU Recomp.</p>
-
-<p align="center"><b>Installing a cheat:</b> add the cheat's text to your cheat file.<br>
-This is the same for every cheat, so entries here don't repeat it.</p>
 
 <!-- cheats:start -->
 
@@ -357,10 +361,11 @@ This is the same for every cheat, so entries here don't repeat it.</p>
 
 <!-- cheats:end -->
 
-## Adding a mod
+<h2 align="center">Adding a mod</h2>
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Use [TEMPLATE.md](TEMPLATE.md) for a mod's page.
+<p align="center">See <a href="CONTRIBUTING.md">CONTRIBUTING.md</a>. Use <a href="TEMPLATE.md">TEMPLATE.md</a> for a mod's page.</p>
 
-## License
+<h2 align="center">License</h2>
 
-The list itself is released under [CC0 1.0](LICENSE). Every linked mod is the work of its author and keeps its own license.
+<p align="center">The list itself is released under <a href="LICENSE">CC0 1.0</a>.<br>
+Every linked mod is the work of its author and keeps its own license.</p>
