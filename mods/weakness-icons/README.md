@@ -6,6 +6,8 @@
 - **Mod license:** see the mod's GameBanana page
 - **Status:** 🟢 Full compatibility
 
+![Preview](preview.jpg)
+
 ## Description
 
 Adds monster weakness icons.

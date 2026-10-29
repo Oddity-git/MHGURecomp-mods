@@ -6,6 +6,8 @@
 - **Mod license:** see the mod's GameBanana page
 - **Status:** 🟢 Full compatibility
 
+![Preview](preview.jpg)
+
 ## Description
 
 Shows damage as FF14-style text with move names for every weapon and distinct colours for critical and weak-point hits. Move names follow the system language (English or Chinese).
