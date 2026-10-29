@@ -253,6 +253,21 @@ These aren't mods you play with on their own, but many of the mods below need th
 </tr>
 </table>
 
+<table>
+<tr>
+<td align="center" width="380"><a href="mods/xx-quest-clear-icon/preview.jpg"><img src="mods/xx-quest-clear-icon/card.jpg" width="360" alt="xx-quest-clear-icon preview"></a></td>
+<td width="520">
+<h3><a href="mods/xx-quest-clear-icon/README.md">XX Quest Clear Icon</a> 🟢</h3>
+<b>Author:</b> ishiki<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/410805">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> No<br>
+<b>Tested recomp version:</b> 0.10.7<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/xx-quest-clear-icon/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
 </div>
 <!-- mods:end -->
 
