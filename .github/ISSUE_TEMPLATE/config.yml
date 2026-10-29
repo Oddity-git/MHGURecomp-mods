@@ -1,1 +1,5 @@
 blank_issues_enabled: true
+contact_links:
+  - name: Bug in MHGU Recomp itself (no mods involved)
+    url: https://github.com/morerokk/MHGURecomp/issues
+    about: Problems that happen with no mods installed belong on the recomp's own issue tracker.

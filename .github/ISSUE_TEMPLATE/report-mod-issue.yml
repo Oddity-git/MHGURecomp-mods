@@ -1,0 +1,89 @@
+name: Report a mod issue
+description: Something is wrong with a mod listed here, or a mod is causing a problem in MHGU Recomp.
+title: "[Mod issue] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form when a **mod** is involved, so it's clear whether the problem is the mod or the recomp.
+        If the problem happens with **no mods installed**, report it on the [MHGU Recomp issue tracker](https://github.com/morerokk/MHGURecomp/issues) instead.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before reporting
+      options:
+        - label: I removed or disabled every other mod and the problem still happens with only this mod.
+          required: false
+        - label: The problem does NOT happen with all mods removed.
+          required: false
+  - type: input
+    id: mod
+    attributes:
+      label: Which mod?
+      description: The mod's name as it appears in the list, or a link to it.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What goes wrong?
+      description: What you expected and what happened instead. Screenshots are welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Install the mod
+        2. Start the game
+        3. ...
+    validations:
+      required: false
+  - type: input
+    id: recomp_version
+    attributes:
+      label: MHGU Recomp version
+      placeholder: "0.9.10"
+    validations:
+      required: true
+  - type: input
+    id: mod_version
+    attributes:
+      label: Mod version
+      description: The file or version name you downloaded.
+    validations:
+      required: false
+  - type: input
+    id: forge_version
+    attributes:
+      label: Forge version
+      description: Only if the mod uses Forge.
+    validations:
+      required: false
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Linux
+        - Windows
+        - Steam Deck
+        - macOS
+    validations:
+      required: true
+  - type: textarea
+    id: other_mods
+    attributes:
+      label: Other mods installed
+      description: List every other mod in your `mods` folder. Conflicts between mods are a common cause.
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or crash output
+      description: Paste any error text or crash log here.
+      render: shell
+    validations:
+      required: false

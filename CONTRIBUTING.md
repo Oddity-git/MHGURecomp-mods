@@ -20,3 +20,7 @@ If you'd rather open a pull request yourself, follow these rules to keep the lis
 8. **Updating an entry.** If you tested a mod on a newer recomp version or another platform, add a row to its "Tested with" table instead of replacing the old one.
 
 Open a pull request with your changes. One mod per pull request is easiest to review.
+
+## Reporting a problem with a mod
+
+Use the [Report a mod issue](../../issues/new?template=report-mod-issue.yml) form. It asks which mod, your versions and platform, and which other mods you have installed, so it's clear whether the mod, a conflict between mods, or the recomp itself is at fault. If the problem also happens with no mods installed, report it on the [MHGU Recomp issue tracker](https://github.com/morerokk/MHGURecomp/issues) instead. When a mod problem turns out to need a change in the recomp, a maintainer will pass it on there.
