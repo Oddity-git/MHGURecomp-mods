@@ -10,7 +10,7 @@ import re
 import sys
 from pathlib import Path
 
-from fetch_previews import API, ROOT, get
+from fetch_previews import API, ROOT, card_img, get
 
 STATUS = {"🟢": "🟢", "🟡": "🟡", "🔴": "🔴"}
 GAMEBANANA = re.compile(r"^https://(?:www\.)?gamebanana\.com/mods/(\d+)/?$")
@@ -70,7 +70,7 @@ def forge_text(fields):
 
 
 def card(name, slug, status, author, source, url, version, platform, forge, with_image):
-    img = (f'<img src="mods/{slug}/preview.jpg" width="360" alt="{name} preview">'
+    img = (card_img(slug, name)
            if with_image else "<sub>No preview yet</sub>")
     return f'''<table>
 <tr>

@@ -105,29 +105,38 @@ def crop_16_9(image):
     return image
 
 
+def card_img(slug, alt):
+    """Cropped thumbnail for the card; clicking it opens the full, uncropped preview."""
+    return (f'<a href="mods/{slug}/preview.jpg"><img src="mods/{slug}/card.jpg" width="360" '
+            f'alt="{alt} preview"></a>')
+
+
 def attach(slug, data):
-    """Save the image and show it on the mod's card and page."""
-    image = crop_16_9(Image.open(io.BytesIO(data)).convert("RGB"))
-    image.save(ROOT / "mods" / slug / "preview.jpg", quality=85)
+    """Save the full image plus a 16:9 card thumbnail and show them on the card and page."""
+    full = Image.open(io.BytesIO(data)).convert("RGB")
+    thumb = crop_16_9(full.copy())
+    full.thumbnail((1920, 1080))
+    folder = ROOT / "mods" / slug
+    full.save(folder / "preview.jpg", quality=85)
+    thumb.save(folder / "card.jpg", quality=85)
     readme = ROOT / "README.md"
     text = readme.read_text(encoding="utf-8")
     card = re.compile(
-        r'(<td align="center" width="380">)<sub>No preview yet</sub>(</td>\s*<td width="520">\s*'
-        r'<h3><a href="mods/%s/README\.md">)' % re.escape(slug)
+        r'(<td align="center" width="380">)(?:<sub>No preview yet</sub>|<a href="[^"]*"><img [^>]*></a>|<img [^>]*>)'
+        r'(</td>\s*<td width="520">\s*<h3><a href="mods/%s/README\.md">)' % re.escape(slug)
     )
-    img = f'<img src="mods/{slug}/preview.jpg" width="360" alt="{slug} preview">'
-    readme.write_text(card.sub(lambda m: m[1] + img + m[2], text), encoding="utf-8")
-    page = ROOT / "mods" / slug / "README.md"
+    readme.write_text(card.sub(lambda m: m[1] + card_img(slug, slug) + m[2], text), encoding="utf-8")
+    page = folder / "README.md"
     body = page.read_text(encoding="utf-8")
     if "![Preview](preview.jpg)" not in body:
         page.write_text(body.replace("\n## Description", "\n![Preview](preview.jpg)\n\n## Description", 1), encoding="utf-8")
-    return image.size
+    return thumb.size
 
 
 def main(only, uploaded_text=""):
     for page in sorted((ROOT / "mods").glob("*/README.md")):
         slug = page.parent.name
-        if (only and slug not in only) or (page.parent / "preview.jpg").exists():
+        if (only and slug not in only) or (page.parent / "card.jpg").exists():
             continue
         data = find_image(page.read_text(encoding="utf-8"), uploaded_text if only else "")
         if not data:

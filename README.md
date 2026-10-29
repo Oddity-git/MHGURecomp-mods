@@ -42,7 +42,7 @@ Each mod card says whether it requires Forge.</p>
 
 <table>
 <tr>
-<td align="center" width="380"><img src="mods/forge/preview.jpg" width="360" alt="Forge preview"></td>
+<td align="center" width="380"><a href="mods/forge/preview.jpg"><img src="mods/forge/card.jpg" width="360" alt="Forge preview"></a></td>
 <td width="520">
 <h3><a href="mods/forge/README.md">Forge</a> 🟢</h3>
 <b>Author:</b> Fexty12573<br>
@@ -63,7 +63,7 @@ Each mod card says whether it requires Forge.</p>
 
 <table>
 <tr>
-<td align="center" width="380"><img src="mods/better-inputs/preview.jpg" width="360" alt="Better Inputs preview"></td>
+<td align="center" width="380"><sub>No preview yet</sub></td>
 <td width="520">
 <h3><a href="mods/better-inputs/README.md">Better Inputs</a> 🟢</h3>
 <b>Author:</b> Fexty12573<br>
@@ -78,7 +78,7 @@ Each mod card says whether it requires Forge.</p>
 
 <table>
 <tr>
-<td align="center" width="380"><img src="mods/damage-numbers/preview.jpg" width="360" alt="Damage Numbers preview"></td>
+<td align="center" width="380"><sub>No preview yet</sub></td>
 <td width="520">
 <h3><a href="mods/damage-numbers/README.md">Damage Numbers</a> 🟢</h3>
 <b>Author:</b> PurplefinNeptuna<br>
@@ -93,7 +93,7 @@ Each mod card says whether it requires Forge.</p>
 
 <table>
 <tr>
-<td align="center" width="380"><img src="mods/ff14-damage-text/preview.jpg" width="360" alt="ff14-damage-text preview"></td>
+<td align="center" width="380"><sub>No preview yet</sub></td>
 <td width="520">
 <h3><a href="mods/ff14-damage-text/README.md">FF14-style Damage Text</a> 🟢</h3>
 <b>Author:</b> Filianore<br>
@@ -108,7 +108,7 @@ Each mod card says whether it requires Forge.</p>
 
 <table>
 <tr>
-<td align="center" width="380"><img src="mods/dualshock-buttons/preview.jpg" width="360" alt="dualshock-buttons preview"></td>
+<td align="center" width="380"><sub>No preview yet</sub></td>
 <td width="520">
 <h3><a href="mods/dualshock-buttons/README.md">Full DualShock Buttons</a> 🟢</h3>
 <b>Author:</b> Abbanon<br>
@@ -123,7 +123,7 @@ Each mod card says whether it requires Forge.</p>
 
 <table>
 <tr>
-<td align="center" width="380"><img src="mods/key-quest-markers/preview.jpg" width="360" alt="key-quest-markers preview"></td>
+<td align="center" width="380"><sub>No preview yet</sub></td>
 <td width="520">
 <h3><a href="mods/key-quest-markers/README.md">Key Quest Markers</a> 🟢</h3>
 <b>Author:</b> PurplefinNeptuna<br>
@@ -138,7 +138,7 @@ Each mod card says whether it requires Forge.</p>
 
 <table>
 <tr>
-<td align="center" width="380"><img src="mods/mhgu-hd-project/preview.jpg" width="360" alt="mhgu-hd-project preview"></td>
+<td align="center" width="380"><sub>No preview yet</sub></td>
 <td width="520">
 <h3><a href="mods/mhgu-hd-project/README.md">MHGU HD Project</a> 🟢</h3>
 <b>Author:</b> Monkbreh<br>
@@ -153,7 +153,7 @@ Each mod card says whether it requires Forge.</p>
 
 <table>
 <tr>
-<td align="center" width="380"><img src="mods/mhgu-xx-rebalanced/preview.jpg" width="360" alt="mhgu-xx-rebalanced preview"></td>
+<td align="center" width="380"><sub>No preview yet</sub></td>
 <td width="520">
 <h3><a href="mods/mhgu-xx-rebalanced/README.md">MHGU/XX Rebalanced</a> 🟢</h3>
 <b>Author:</b> Potobc<br>
@@ -168,7 +168,7 @@ Each mod card says whether it requires Forge.</p>
 
 <table>
 <tr>
-<td align="center" width="380"><img src="mods/weakness-icons/preview.jpg" width="360" alt="weakness-icons preview"></td>
+<td align="center" width="380"><sub>No preview yet</sub></td>
 <td width="520">
 <h3><a href="mods/weakness-icons/README.md">Monster Weakness Icons</a> 🟢</h3>
 <b>Author:</b> Potobc<br>
@@ -183,7 +183,7 @@ Each mod card says whether it requires Forge.</p>
 
 <table>
 <tr>
-<td align="center" width="380"><img src="mods/xbox-layout/preview.jpg" width="360" alt="xbox-layout preview"></td>
+<td align="center" width="380"><sub>No preview yet</sub></td>
 <td width="520">
 <h3><a href="mods/xbox-layout/README.md">Xbox Controller Layout</a> 🟢</h3>
 <b>Author:</b> ishiki<br>
