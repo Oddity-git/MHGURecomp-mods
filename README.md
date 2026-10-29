@@ -138,6 +138,21 @@ Each mod card says whether it requires Forge.</p>
 
 <table>
 <tr>
+<td align="center" width="380"><a href="mods/mapassist-monster-icons-on-the-map/preview.jpg"><img src="mods/mapassist-monster-icons-on-the-map/card.jpg" width="360" alt="mapassist-monster-icons-on-the-map preview"></a></td>
+<td width="520">
+<h3><a href="mods/mapassist-monster-icons-on-the-map/README.md">MapAssist - Monster Icons on the Map</a> 🟢</h3>
+<b>Author:</b> Katt404<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/732716">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes<br>
+<b>Tested recomp version:</b> 0.10.7<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/mapassist-monster-icons-on-the-map/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><a href="mods/mhgu-hd-project/preview.jpg"><img src="mods/mhgu-hd-project/card.jpg" width="360" alt="mhgu-hd-project preview"></a></td>
 <td width="520">
 <h3><a href="mods/mhgu-hd-project/README.md">MHGU HD Project</a> 🟢</h3>
