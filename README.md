@@ -1,6 +1,13 @@
 <h1 align="center">MHGURecomp-mods</h1>
 
 <p align="center">
+<a href="https://github.com/morerokk/MHGURecomp/releases/latest"><img src="https://img.shields.io/github/v/release/morerokk/MHGURecomp?style=for-the-badge&label=MHGU%20Recomp&color=2ea44f" alt="Latest MHGU Recomp version"></a>
+<a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contribute-add%20a%20mod-1f6feb?style=for-the-badge" alt="Contribute a mod"></a>
+<a href="https://github.com/morerokk/MHGURecomp"><img src="https://img.shields.io/badge/MHGU%20Recomp-source-6e5494?style=for-the-badge&logo=github" alt="MHGU Recomp repository"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0%201.0-lightgrey?style=for-the-badge" alt="CC0 1.0 license"></a>
+</p>
+
+<p align="center">
 A curated directory of mods tested with <a href="https://github.com/morerokk/MHGURecomp">MHGU Recomp</a>, with links to each mod's download page, install steps, and the versions and platforms they've been tested on.<br>
 This repository only holds links and notes. No mod files are hosted here: download each mod from the page its author published it on.
 </p>
