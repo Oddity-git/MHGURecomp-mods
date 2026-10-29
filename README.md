@@ -252,6 +252,7 @@ This is the same for every cheat, so entries here don't repeat it.</p>
 
 
 ```text
+[Fast gathering x4]
 04000000 013F1E90 E52D1004
 04000000 013F1E94 E3001000
 04000000 013F1E98 E3441080
@@ -298,6 +299,7 @@ This is the same for every cheat, so entries here don't repeat it.</p>
 
 
 ```text
+[Max gathers at every spot]
 04000000 0031B31C E3A00000
 ```
 
