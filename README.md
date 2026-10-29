@@ -52,8 +52,7 @@ Most mods only use one of the two folders. If a mod was packaged for an emulator
 
 <h3 align="center">Dependencies</h3>
 
-<p align="center">These aren't mods you play with on their own, but many of the mods below need them. Install them first.<br>
-Each mod card says whether it requires Forge.</p>
+These aren't mods you play with on their own, but many of the mods below need them. Install them first. Each mod card says whether it requires Forge.
 
 <div align="center">
 
@@ -354,9 +353,8 @@ Cheats tested with MHGU Recomp. **Installing a cheat:** add the cheat's text to 
 
 <h2 align="center">Adding a mod</h2>
 
-<p align="center">See <a href="CONTRIBUTING.md">CONTRIBUTING.md</a>. Use <a href="TEMPLATE.md">TEMPLATE.md</a> for a mod's page.</p>
+See [CONTRIBUTING.md](CONTRIBUTING.md). Use [TEMPLATE.md](TEMPLATE.md) for a mod's page.
 
 <h2 align="center">License</h2>
 
-<p align="center">The list itself is released under <a href="LICENSE">CC0 1.0</a>.<br>
-Every linked mod is the work of its author and keeps its own license.</p>
+The list itself is released under [CC0 1.0](LICENSE). Every linked mod is the work of its author and keeps its own license.
