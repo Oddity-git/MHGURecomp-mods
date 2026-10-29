@@ -5,7 +5,7 @@
 <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contribute-add%20a%20mod-1f6feb?style=flat" alt="Contribute a mod"></a>
 <a href="https://github.com/morerokk/MHGURecomp"><img src="https://img.shields.io/badge/MHGU%20Recomp-source-6e5494?style=flat&logo=github" alt="MHGU Recomp repository"></a>
 <a href="../../issues/new?template=report-mod-issue.yml"><img src="https://img.shields.io/badge/Report-a%20mod%20issue-d73a49?style=flat" alt="Report a mod issue"></a>
-<a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0%201.0-lightgrey?style=flat" alt="CC0 1.0 license"></a>
+<a href="../../issues/new?template=submit-cheat.yml"><img src="https://img.shields.io/badge/Submit-a%20cheat-f0883e?style=flat" alt="Submit a cheat"></a>
 </p>
 
 <p align="center">
@@ -228,6 +228,13 @@ Each mod card says whether it requires Forge.</p>
 
 </div>
 <!-- mods:end -->
+
+<h2 align="center">Cheats</h2>
+
+<p align="center">Cheats tested with MHGU Recomp.<br>
+Have one? <a href="../../issues/new?template=submit-cheat.yml">Submit a cheat</a>.</p>
+
+<p align="center"><sub>No cheats listed yet.</sub></p>
 
 ## Installing mods
 

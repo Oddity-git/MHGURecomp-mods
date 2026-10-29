@@ -1,0 +1,59 @@
+name: Submit a cheat
+description: Share a cheat you have tested with MHGU Recomp.
+title: "Add cheat: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Only submit cheats you have tested yourself.
+        A maintainer will add it to the Cheats section.
+  - type: input
+    id: cheat_name
+    attributes:
+      label: Cheat name
+      placeholder: Infinite sharpness
+    validations:
+      required: true
+  - type: textarea
+    id: what_it_does
+    attributes:
+      label: What it does
+    validations:
+      required: true
+  - type: textarea
+    id: cheat_code
+    attributes:
+      label: Cheat code or link
+      description: Paste the cheat, or link to where it is published. Cheat files themselves aren't hosted here.
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: recomp_version
+    attributes:
+      label: MHGU Recomp version tested
+      placeholder: "0.9.10"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Tested platform
+      options:
+        - Windows
+        - Linux
+        - Steam Deck
+        - macOS
+    validations:
+      required: true
+  - type: textarea
+    id: how_to_use
+    attributes:
+      label: How to install or enable it
+    validations:
+      required: true
+  - type: textarea
+    id: known_issues
+    attributes:
+      label: Known issues
+      description: Anything that doesn't work, or side effects.

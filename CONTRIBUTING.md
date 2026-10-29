@@ -21,6 +21,10 @@ If you'd rather open a pull request yourself, follow these rules to keep the lis
 
 Open a pull request with your changes. One mod per pull request is easiest to review.
 
+## Submitting a cheat
+
+Use the [Submit a cheat form](../../issues/new?template=submit-cheat.yml). Only submit cheats you have tested yourself. A maintainer adds them to the Cheats section.
+
 ## Reporting a problem with a mod
 
 Use the [Report a mod issue](../../issues/new?template=report-mod-issue.yml) form. It asks which mod, your versions and platform, and which other mods you have installed, so it's clear whether the mod, a conflict between mods, or the recomp itself is at fault. If the problem also happens with no mods installed, report it on the [MHGU Recomp issue tracker](https://github.com/morerokk/MHGURecomp/issues) instead. Mod issues stay here and are not copied to the recomp's tracker. Only a pull request that fixes the problem is sent to the recomp, and it is opened there by whoever wrote the fix.
