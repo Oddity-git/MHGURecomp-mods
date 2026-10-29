@@ -1,4 +1,4 @@
-"""Find a screenshot for each mod and save it as mods/<slug>/preview.jpg.
+"""Find a screenshot for each mod and save it as a 16:9 mods/<slug>/preview.jpg.
 
 Sources, in order: a screenshot uploaded with the submission form, the first
 screenshot on the mod's GameBanana page, then the first real image in the
@@ -90,10 +90,24 @@ def find_image(page_text, uploaded_text=""):
     return None
 
 
+def crop_16_9(image):
+    """Center-crop to 16:9 so every preview has the same shape, then cap the size."""
+    width, height = image.size
+    if width * 9 > height * 16:  # too wide: trim the sides
+        new_width = height * 16 // 9
+        left = (width - new_width) // 2
+        image = image.crop((left, 0, left + new_width, height))
+    else:  # too tall: trim top and bottom
+        new_height = width * 9 // 16
+        top = (height - new_height) // 2
+        image = image.crop((0, top, width, top + new_height))
+    image.thumbnail((1280, 720))
+    return image
+
+
 def attach(slug, data):
     """Save the image and show it on the mod's card and page."""
-    image = Image.open(io.BytesIO(data)).convert("RGB")
-    image.thumbnail((1280, 1280))
+    image = crop_16_9(Image.open(io.BytesIO(data)).convert("RGB"))
     image.save(ROOT / "mods" / slug / "preview.jpg", quality=85)
     readme = ROOT / "README.md"
     text = readme.read_text(encoding="utf-8")
