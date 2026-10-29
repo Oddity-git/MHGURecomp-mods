@@ -84,7 +84,7 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 
 <table>
 <tr>
-<td align="center" width="380"><sub>No preview yet</sub></td>
+<td align="center" width="380"><img src="mods/key-quest-markers/preview.jpg" width="360" alt="key-quest-markers preview"></td>
 <td width="520">
 <h3><a href="mods/key-quest-markers/README.md">Key Quest Markers</a> 🟢</h3>
 <b>Author:</b> PurplefinNeptuna<br>
@@ -98,7 +98,7 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 
 <table>
 <tr>
-<td align="center" width="380"><sub>No preview yet</sub></td>
+<td align="center" width="380"><img src="mods/weakness-icons/preview.jpg" width="360" alt="weakness-icons preview"></td>
 <td width="520">
 <h3><a href="mods/weakness-icons/README.md">Monster Weakness Icons</a> 🟢</h3>
 <b>Author:</b> Potobc<br>
@@ -112,7 +112,7 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 
 <table>
 <tr>
-<td align="center" width="380"><sub>No preview yet</sub></td>
+<td align="center" width="380"><img src="mods/xbox-layout/preview.jpg" width="360" alt="xbox-layout preview"></td>
 <td width="520">
 <h3><a href="mods/xbox-layout/README.md">Xbox Controller Layout</a> 🟢</h3>
 <b>Author:</b> ishiki<br>
