@@ -56,7 +56,7 @@ Each mod card says whether it requires Forge.</p>
 
 <table>
 <tr>
-<td align="center" width="380"><sub>No preview yet</sub></td>
+<td align="center" width="380"><a href="mods/katlib/preview.jpg"><img src="mods/katlib/card.jpg" width="360" alt="katlib preview"></a></td>
 <td width="520">
 <h3><a href="mods/katlib/README.md">KatLib</a> 🟢</h3>
 <b>Author:</b> Katt404<br>
