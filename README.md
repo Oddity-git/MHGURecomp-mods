@@ -56,7 +56,7 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 
 <table>
 <tr>
-<td align="center" width="380"><sub>No preview yet</sub></td>
+<td align="center" width="380"><img src="mods/ff14-damage-text/preview.jpg" width="360" alt="ff14-damage-text preview"></td>
 <td width="520">
 <h3><a href="mods/ff14-damage-text/README.md">FF14-style Damage Text</a> 🟢</h3>
 <b>Author:</b> Filianore<br>
@@ -70,7 +70,7 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 
 <table>
 <tr>
-<td align="center" width="380"><sub>No preview yet</sub></td>
+<td align="center" width="380"><img src="mods/dualshock-buttons/preview.jpg" width="360" alt="dualshock-buttons preview"></td>
 <td width="520">
 <h3><a href="mods/dualshock-buttons/README.md">Full DualShock Buttons</a> 🟢</h3>
 <b>Author:</b> Abbanon<br>
