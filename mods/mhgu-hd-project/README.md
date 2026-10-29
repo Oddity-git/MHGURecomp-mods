@@ -14,7 +14,7 @@ A Remaster of MHGU
 
 ## Tested with
 
-| Recomp version or commit | Tested platform |
+| Recomp version | Tested platform |
 | --- | --- |
 | 0.10.7 | Linux |
 

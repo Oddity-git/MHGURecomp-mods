@@ -19,7 +19,7 @@ body:
     id: recomp_version
     attributes:
       label: MHGU Recomp version tested
-      description: A release number or commit.
+      description: The release number, for example 0.10.7.
       placeholder: "0.9.10"
     validations:
       required: true

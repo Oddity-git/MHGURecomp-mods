@@ -14,9 +14,9 @@
 
 ## Tested with
 
-| Recomp version or commit | Tested platform |
+| Recomp version | Tested platform |
 | --- | --- |
-| <e.g. v0.1.0 or abc1234> | <Linux / Windows / Steam Deck> |
+| <e.g. 0.10.7> | <Linux / Windows / Steam Deck> |
 
 ## Install
 

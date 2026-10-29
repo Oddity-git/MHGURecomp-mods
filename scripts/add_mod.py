@@ -103,7 +103,7 @@ def page(name, slug, status, status_text, author, source, url, description, vers
 
 ## Tested with
 
-| Recomp version or commit | Tested platform |
+| Recomp version | Tested platform |
 | --- | --- |
 | {version} | {platform} |
 

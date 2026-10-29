@@ -14,7 +14,7 @@ Adds damage number popups, in a Wilds-style or Rise-style look.
 
 ## Tested with
 
-| Recomp version or commit | Tested platform |
+| Recomp version | Tested platform |
 | --- | --- |
 | 0.10.7 | Linux (CachyOS) |
 

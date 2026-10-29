@@ -14,7 +14,7 @@ Replaces the button prompts with Xbox controller buttons.
 
 ## Tested with
 
-| Recomp version or commit | Tested platform |
+| Recomp version | Tested platform |
 | --- | --- |
 | 0.10.7 | Linux (CachyOS) |
 

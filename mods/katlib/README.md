@@ -14,7 +14,7 @@ A shared library plugin for Katt404's Forge plugins. It does nothing on its own:
 
 ## Tested with
 
-| Recomp version or commit | Tested platform |
+| Recomp version | Tested platform |
 | --- | --- |
 | 0.10.7 | Linux (CachyOS) |
 

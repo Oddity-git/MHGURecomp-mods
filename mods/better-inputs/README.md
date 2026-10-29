@@ -14,7 +14,7 @@ Improves input handling and input buffering, and adds some convenience features.
 
 ## Tested with
 
-| Recomp version or commit | Tested platform |
+| Recomp version | Tested platform |
 | --- | --- |
 | 0.10.7 | Linux (CachyOS) |
 

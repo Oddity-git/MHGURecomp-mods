@@ -14,7 +14,7 @@ See the [GameBanana page](https://gamebanana.com/mods/447835) for what this mod 
 
 ## Tested with
 
-| Recomp version or commit | Tested platform |
+| Recomp version | Tested platform |
 | --- | --- |
 | 0.9.1.0 | Linux |
 

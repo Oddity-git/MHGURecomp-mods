@@ -14,7 +14,7 @@ An environment for linking, runtime hooking and code patching in Monster Hunter 
 
 ## Tested with
 
-| Recomp version or commit | Tested platform |
+| Recomp version | Tested platform |
 | --- | --- |
 | 0.9.1.0 | Linux |
 
