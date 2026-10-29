@@ -244,6 +244,52 @@ This is the same for every cheat, so entries here don't repeat it.</p>
 <!-- cheats:start -->
 
 <details>
+<summary><b>Fast gathering x4</b></summary>
+
+<b>What it does:</b> The hunter&#x27;s animation speed is the float at player+0x14b0 (applied every frame, reset to 1.0 when an action starts). The gather action (0x4d4544) sets it to 1.1 / 0.7 for some motions and leaves 1.0 for the rest. Here its 14 motion calls go through two small stubs after main&#x27;s .text (0x13F1E90, 0x13F1EB0) that set it to 4.0 first, and its own 1.1 / 0.7 become 4.4 / 2.8. Other actions are untouched.<br>
+<b>Tested recomp version:</b> 0.10.7<br>
+<b>Tested platform:</b> Linux
+
+
+```text
+04000000 013F1E90 E52D1004
+04000000 013F1E94 E3001000
+04000000 013F1E98 E3441080
+04000000 013F1E9C E280CB05
+04000000 013F1EA0 E58C10B0
+04000000 013F1EA4 E49D1004
+04000000 013F1EA8 EABA3EF0
+04000000 013F1EB0 E52D1004
+04000000 013F1EB4 E3001000
+04000000 013F1EB8 E3441080
+04000000 013F1EBC E280CB05
+04000000 013F1EC0 E58C10B0
+04000000 013F1EC4 E49D1004
+04000000 013F1EC8 EABA3EB2
+04000000 002D4740 EB4475D2
+04000000 002D47F4 EB4475A5
+04000000 002D4828 EB447598
+04000000 002D485C EB44758B
+04000000 002D48AC EB447577
+04000000 002D48F0 EB447566
+04000000 002D4964 EB447549
+04000000 002D49D8 EB44752C
+04000000 002D4B90 EB4474BE
+04000000 002D4704 EB4475E9
+04000000 002D47B0 EB4475BE
+04000000 002D487C EB44758B
+04000000 002D4930 EB44755E
+04000000 002D4BC0 EB4474BA
+04000000 002D47C0 E3441033
+04000000 002D483C E344108C
+04000000 002D48C8 E344108C
+04000000 002D490C E344108C
+04000000 002D49C0 E344108C
+```
+
+</details>
+
+<details>
 <summary><b>Max gathers at every spot</b></summary>
 
 <b>What it does:</b> Gather points roll rand(32) &lt; N after each gather to run out early (N = 7 normally, 5 with Gathering +1, 3 with Gathering +2, 11 with Gathering -1). This makes N = 0, so every spot gives its full number of gathers. Patches the bl at 0x51b31c.<br>
