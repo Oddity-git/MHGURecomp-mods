@@ -2,6 +2,7 @@
 
 - **Author:** Fexty12573
 - **Download:** [GitHub](https://github.com/Fexty12573/forge)
+- **Required by:** Better Inputs, Damage Numbers, FF14-style Damage Text, Key Quest Markers
 - **Mod license:** see the mod's GitHub page
 - **Status:** 🟢 Full compatibility
 

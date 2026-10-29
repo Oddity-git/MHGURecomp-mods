@@ -2,6 +2,7 @@
 
 - **Author:** Filianore
 - **Download:** [GameBanana](https://gamebanana.com/mods/727751)
+- **Requires [Forge](../forge/README.md):** Yes (1.4.1)
 - **Mod license:** see the mod's GameBanana page
 - **Status:** 🟢 Full compatibility
 
@@ -23,4 +24,4 @@ Shows damage as FF14-style text with move names for every weapon and distinct co
 
 ## Known issues
 
-None known.
+Not compatible with Damage Numbers; install only one of the two. Supports the international MHGU 1.4.0 only, not the Japanese MHXX build.

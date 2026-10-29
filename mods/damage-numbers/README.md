@@ -2,6 +2,7 @@
 
 - **Author:** PurplefinNeptuna
 - **Download:** [GameBanana](https://gamebanana.com/mods/725408)
+- **Requires [Forge](../forge/README.md):** Yes (1.4.1)
 - **Mod license:** see the mod's GameBanana page
 - **Status:** 🟢 Full compatibility
 
@@ -25,4 +26,4 @@ Adds damage number popups, in a Wilds-style or Rise-style look.
 
 ## Known issues
 
-None known.
+Not compatible with FF14-style Damage Text; install only one of the two.

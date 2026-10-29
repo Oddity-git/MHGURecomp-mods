@@ -22,51 +22,12 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 | 🟡 | Partial: the mod loads, but some of its features are missing or broken. |
 | 🔴 | Broken: the mod doesn't work, or crashes the game. |
 
-<h3 align="center">Mods</h3>
+<h3 align="center">Start here: Forge</h3>
+
+<p align="center">Forge is the plugin loader that many of the mods below need. Install it first.<br>
+Each mod card says whether it requires Forge.</p>
 
 <div align="center">
-
-<table>
-<tr>
-<td align="center" width="380"><img src="mods/better-inputs/preview.jpg" width="360" alt="Better Inputs preview"></td>
-<td width="520">
-<h3><a href="mods/better-inputs/README.md">Better Inputs</a> 🟢</h3>
-<b>Author:</b> Fexty12573<br>
-<b>Download:</b> <a href="https://gamebanana.com/mods/689270">GameBanana</a><br>
-<b>Tested recomp version:</b> TBD<br>
-<b>Tested platform:</b> Linux<br>
-<a href="mods/better-inputs/README.md">Install steps and details</a>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td align="center" width="380"><img src="mods/damage-numbers/preview.jpg" width="360" alt="Damage Numbers preview"></td>
-<td width="520">
-<h3><a href="mods/damage-numbers/README.md">Damage Numbers</a> 🟢</h3>
-<b>Author:</b> PurplefinNeptuna<br>
-<b>Download:</b> <a href="https://gamebanana.com/mods/725408">GameBanana</a><br>
-<b>Tested recomp version:</b> TBD<br>
-<b>Tested platform:</b> Linux<br>
-<a href="mods/damage-numbers/README.md">Install steps and details</a>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td align="center" width="380"><img src="mods/ff14-damage-text/preview.jpg" width="360" alt="ff14-damage-text preview"></td>
-<td width="520">
-<h3><a href="mods/ff14-damage-text/README.md">FF14-style Damage Text</a> 🟢</h3>
-<b>Author:</b> Filianore<br>
-<b>Download:</b> <a href="https://gamebanana.com/mods/727751">GameBanana</a><br>
-<b>Tested recomp version:</b> TBD<br>
-<b>Tested platform:</b> Linux<br>
-<a href="mods/ff14-damage-text/README.md">Install steps and details</a>
-</td>
-</tr>
-</table>
 
 <table>
 <tr>
@@ -82,6 +43,58 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 </tr>
 </table>
 
+</div>
+
+<h3 align="center">Mods</h3>
+
+<!-- mods:start -->
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="380"><img src="mods/better-inputs/preview.jpg" width="360" alt="Better Inputs preview"></td>
+<td width="520">
+<h3><a href="mods/better-inputs/README.md">Better Inputs</a> 🟢</h3>
+<b>Author:</b> Fexty12573<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/689270">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes (1.4.0 or newer)<br>
+<b>Tested recomp version:</b> TBD<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/better-inputs/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center" width="380"><img src="mods/damage-numbers/preview.jpg" width="360" alt="Damage Numbers preview"></td>
+<td width="520">
+<h3><a href="mods/damage-numbers/README.md">Damage Numbers</a> 🟢</h3>
+<b>Author:</b> PurplefinNeptuna<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/725408">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes (1.4.1)<br>
+<b>Tested recomp version:</b> TBD<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/damage-numbers/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center" width="380"><img src="mods/ff14-damage-text/preview.jpg" width="360" alt="ff14-damage-text preview"></td>
+<td width="520">
+<h3><a href="mods/ff14-damage-text/README.md">FF14-style Damage Text</a> 🟢</h3>
+<b>Author:</b> Filianore<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/727751">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes (1.4.1)<br>
+<b>Tested recomp version:</b> TBD<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/ff14-damage-text/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
 <table>
 <tr>
 <td align="center" width="380"><img src="mods/dualshock-buttons/preview.jpg" width="360" alt="dualshock-buttons preview"></td>
@@ -89,6 +102,7 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 <h3><a href="mods/dualshock-buttons/README.md">Full DualShock Buttons</a> 🟢</h3>
 <b>Author:</b> Abbanon<br>
 <b>Download:</b> <a href="https://gamebanana.com/mods/475878">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> No<br>
 <b>Tested recomp version:</b> TBD<br>
 <b>Tested platform:</b> Linux<br>
 <a href="mods/dualshock-buttons/README.md">Install steps and details</a>
@@ -103,6 +117,7 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 <h3><a href="mods/key-quest-markers/README.md">Key Quest Markers</a> 🟢</h3>
 <b>Author:</b> PurplefinNeptuna<br>
 <b>Download:</b> <a href="https://gamebanana.com/mods/727960">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes (1.5.1)<br>
 <b>Tested recomp version:</b> TBD<br>
 <b>Tested platform:</b> Linux<br>
 <a href="mods/key-quest-markers/README.md">Install steps and details</a>
@@ -117,6 +132,7 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 <h3><a href="mods/weakness-icons/README.md">Monster Weakness Icons</a> 🟢</h3>
 <b>Author:</b> Potobc<br>
 <b>Download:</b> <a href="https://gamebanana.com/mods/488552">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> No<br>
 <b>Tested recomp version:</b> TBD<br>
 <b>Tested platform:</b> Linux<br>
 <a href="mods/weakness-icons/README.md">Install steps and details</a>
@@ -131,6 +147,7 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 <h3><a href="mods/xbox-layout/README.md">Xbox Controller Layout</a> 🟢</h3>
 <b>Author:</b> ishiki<br>
 <b>Download:</b> <a href="https://gamebanana.com/mods/410801">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> No<br>
 <b>Tested recomp version:</b> TBD<br>
 <b>Tested platform:</b> Linux<br>
 <a href="mods/xbox-layout/README.md">Install steps and details</a>
@@ -139,6 +156,7 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 </table>
 
 </div>
+<!-- mods:end -->
 
 ## Installing mods
 

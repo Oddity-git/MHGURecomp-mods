@@ -2,6 +2,7 @@
 
 - **Author:** Abbanon
 - **Download:** [GameBanana](https://gamebanana.com/mods/475878)
+- **Requires [Forge](../forge/README.md):** No
 - **Mod license:** see the mod's GameBanana page
 - **Status:** 🟢 Full compatibility
 
@@ -23,4 +24,4 @@ Replaces the button prompts with PlayStation (DualShock) buttons, for all langua
 
 ## Known issues
 
-None known.
+Conflicts with the "XX Quest Clear Icon" mod by ishiki, because both change the same files. The author developed it for Ryujinx and did not test Yuzu.

@@ -2,6 +2,7 @@
 
 - **Author:** Potobc
 - **Download:** [GameBanana](https://gamebanana.com/mods/488552)
+- **Requires [Forge](../forge/README.md):** No
 - **Mod license:** see the mod's GameBanana page
 - **Status:** 🟢 Full compatibility
 
@@ -23,4 +24,4 @@ Adds monster weakness icons.
 
 ## Known issues
 
-None known.
+Replaces `resident.arc`, so it will conflict with any other mod that replaces the same file.

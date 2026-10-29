@@ -53,7 +53,23 @@ def mod_info(source, url):
     return (name.title() if name == name.lower() else name), data["owner"]["login"], data.get("description") or ""
 
 
-def card(name, slug, status, author, source, url, version, platform, with_image):
+def forge_card(forge):
+    return f'<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> {forge}<br>\n'
+
+
+def forge_page(forge):
+    return f"- **Requires [Forge](../forge/README.md):** {forge}\n"
+
+
+def forge_text(fields):
+    """'No', or 'Yes (version)' from the form's Forge fields."""
+    if fields.get("Requires Forge", "No").strip() != "Yes":
+        return "No"
+    version = fields.get("Forge version needed", "").strip()
+    return f"Yes ({version})" if version else "Yes"
+
+
+def card(name, slug, status, author, source, url, version, platform, forge, with_image):
     img = (f'<img src="mods/{slug}/preview.jpg" width="360" alt="{name} preview">'
            if with_image else "<sub>No preview yet</sub>")
     return f'''<table>
@@ -63,7 +79,7 @@ def card(name, slug, status, author, source, url, version, platform, with_image)
 <h3><a href="mods/{slug}/README.md">{name}</a> {status}</h3>
 <b>Author:</b> {author}<br>
 <b>Download:</b> <a href="{url}">{source}</a><br>
-<b>Tested recomp version:</b> {version}<br>
+{forge_card(forge)}<b>Tested recomp version:</b> {version}<br>
 <b>Tested platform:</b> {platform}<br>
 <a href="mods/{slug}/README.md">Install steps and details</a>
 </td>
@@ -72,13 +88,13 @@ def card(name, slug, status, author, source, url, version, platform, with_image)
 '''
 
 
-def page(name, slug, status, status_text, author, source, url, description, version, game, platform, issues):
+def page(name, slug, status, status_text, author, source, url, description, version, game, platform, issues, forge):
     preview_line = "![Preview](preview.jpg)\n\n" if source == "GameBanana" else ""
     return f'''# {name}
 
 - **Author:** {author}
 - **Download:** [{source}]({url})
-- **Mod license:** see the mod's {source} page
+{forge_page(forge)}- **Mod license:** see the mod's {source} page
 - **Status:** {status} {status_text}
 
 {preview_line}## Description
@@ -105,8 +121,8 @@ def page(name, slug, status, status_text, author, source, url, description, vers
 
 def insert_card(readme, name, new_card):
     """Insert the card into README keeping the cards alphabetical by mod name."""
-    start = readme.index('<div align="center">\n\n<table>') + len('<div align="center">\n\n')
-    end = readme.index("</div>", start)
+    start = readme.index("<!-- mods:start -->") + len('<!-- mods:start -->\n<div align="center">\n\n')
+    end = readme.index("</div>\n<!-- mods:end -->", start)
     cards = [c.strip() + "\n" for c in re.findall(r"<table>.*?</table>\n?", readme[start:end], re.S)]
     cards.append(new_card)
     cards.sort(key=lambda c: re.search(r'<h3><a [^>]*>(.*?)</a>', c)[1].casefold())
@@ -131,10 +147,10 @@ def build(fields, name, author, source, url, description="", root=ROOT):
     folder = root / "mods" / slug
     folder.mkdir(parents=True)
     (folder / "README.md").write_text(
-        page(name, slug, status, status_label, author, source, url, description, version, game, platform, issues),
+        page(name, slug, status, status_label, author, source, url, description, version, game, platform, issues, forge_text(fields)),
         encoding="utf-8")
     readme_path.write_text(
-        insert_card(readme, name, card(name, slug, status, author, source, url, version, platform, False)),
+        insert_card(readme, name, card(name, slug, status, author, source, url, version, platform, forge_text(fields), False)),
         encoding="utf-8")
     return slug
 

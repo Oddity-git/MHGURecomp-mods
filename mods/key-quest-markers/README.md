@@ -2,6 +2,7 @@
 
 - **Author:** PurplefinNeptuna
 - **Download:** [GameBanana](https://gamebanana.com/mods/727960)
+- **Requires [Forge](../forge/README.md):** Yes (1.5.1)
 - **Mod license:** see the mod's GameBanana page
 - **Status:** 🟢 Full compatibility
 

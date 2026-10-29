@@ -2,6 +2,7 @@
 
 - **Author:** Fexty12573
 - **Download:** [GameBanana](https://gamebanana.com/mods/689270)
+- **Requires [Forge](../forge/README.md):** Yes (1.4.0 or newer)
 - **Mod license:** see the mod's GameBanana page
 - **Status:** 🟢 Full compatibility
 

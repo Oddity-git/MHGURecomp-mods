@@ -2,6 +2,7 @@
 
 - **Author:** ishiki
 - **Download:** [GameBanana](https://gamebanana.com/mods/410801)
+- **Requires [Forge](../forge/README.md):** No
 - **Mod license:** see the mod's GameBanana page
 - **Status:** 🟢 Full compatibility
 
@@ -23,4 +24,4 @@ Replaces the button prompts with Xbox controller buttons.
 
 ## Known issues
 
-None known.
+Only works with the game set to English, and the author says it is not compatible with Yuzu.

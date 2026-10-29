@@ -3,6 +3,7 @@
 - **Author:** <name, with a link to their profile>
 - **Download:** <link to GameBanana, GitHub, Nexus, etc.>
 - **Mod license:** <the author's license, or "not stated">
+- **Requires [Forge](../forge/README.md):** <Yes (version) / No>
 - **Status:** <🟢 Full compatibility / 🟡 Some features missing / 🔴 Broken>
 
 ![Preview](preview.jpg)

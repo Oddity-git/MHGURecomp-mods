@@ -51,6 +51,24 @@ body:
         - "🔴 Broken"
     validations:
       required: true
+  - type: dropdown
+    id: forge
+    attributes:
+      label: Requires Forge
+      description: Does the mod need the Forge plugin loader? Mods with a `.nro` file in `nativeNX/plugins/` do.
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+  - type: input
+    id: forge_version
+    attributes:
+      label: Forge version needed
+      description: Only if the mod requires Forge. Leave empty if the author doesn't say.
+      placeholder: "1.4.1"
+    validations:
+      required: false
   - type: textarea
     id: issues
     attributes:
