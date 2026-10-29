@@ -49,7 +49,8 @@ def mod_info(source, url):
         return page["_sName"], submitter.get("_sName", "Unknown"), ""
     owner, repo = url.split("github.com/")[1].split("/")
     data = json.loads(get(f"https://api.github.com/repos/{owner}/{repo}"))
-    return data["name"].replace("-", " ").replace("_", " "), data["owner"]["login"], data.get("description") or ""
+    name = data["name"].replace("-", " ").replace("_", " ")
+    return (name.title() if name == name.lower() else name), data["owner"]["login"], data.get("description") or ""
 
 
 def card(name, slug, status, author, source, url, version, platform, with_image):
