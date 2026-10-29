@@ -138,7 +138,7 @@ Each mod card says whether it requires Forge.</p>
 
 <table>
 <tr>
-<td align="center" width="380"><sub>No preview yet</sub></td>
+<td align="center" width="380"><img src="mods/mhgu-hd-project/preview.jpg" width="360" alt="mhgu-hd-project preview"></td>
 <td width="520">
 <h3><a href="mods/mhgu-hd-project/README.md">MHGU HD Project</a> 🟢</h3>
 <b>Author:</b> Monkbreh<br>

@@ -6,6 +6,8 @@
 - **Mod license:** see the mod's GitHub page
 - **Status:** 🟢 Full compatibility
 
+![Preview](preview.jpg)
+
 ## Description
 
 A Remaster of MHGU 
