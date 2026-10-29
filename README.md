@@ -17,15 +17,33 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 
 <h3 align="center">Mods</h3>
 
-| Preview (click to expand) | Mod | Status | Author | Download | Tested recomp version | Tested platform |
+| Preview | Mod | Status | Author | Download | Tested recomp version | Tested platform |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <details><summary>🖼️ Preview</summary><img src="mods/better-inputs/preview.jpg" width="480" alt="better-inputs preview"></details> | [Better Inputs](mods/better-inputs/README.md) | 🟢 | Fexty12573 | [GameBanana](https://gamebanana.com/mods/689270) | TBD | Linux |
-| <details><summary>🖼️ Preview</summary><img src="mods/damage-numbers/preview.jpg" width="480" alt="damage-numbers preview"></details> | [Damage Numbers](mods/damage-numbers/README.md) | 🟢 | PurplefinNeptuna | [GameBanana](https://gamebanana.com/mods/725408) | TBD | Linux |
+| [🖼️ View](#previews-better-inputs) | [Better Inputs](mods/better-inputs/README.md) | 🟢 | Fexty12573 | [GameBanana](https://gamebanana.com/mods/689270) | TBD | Linux |
+| [🖼️ View](#previews-damage-numbers) | [Damage Numbers](mods/damage-numbers/README.md) | 🟢 | PurplefinNeptuna | [GameBanana](https://gamebanana.com/mods/725408) | TBD | Linux |
 | — | [FF14-style Damage Text](mods/ff14-damage-text/README.md) | 🟢 | Filianore | [GameBanana](https://gamebanana.com/mods/727751) | TBD | Linux |
 | — | [Full DualShock Buttons](mods/dualshock-buttons/README.md) | 🟢 | Abbanon | [GameBanana](https://gamebanana.com/mods/475878) | TBD | Linux |
 | — | [Key Quest Markers](mods/key-quest-markers/README.md) | 🟢 | PurplefinNeptuna | [GameBanana](https://gamebanana.com/mods/727960) | TBD | Linux |
 | — | [Monster Weakness Icons](mods/weakness-icons/README.md) | 🟢 | Potobc | [GameBanana](https://gamebanana.com/mods/488552) | TBD | Linux |
 | — | [Xbox Controller Layout](mods/xbox-layout/README.md) | 🟢 | ishiki | [GameBanana](https://gamebanana.com/mods/410801) | TBD | Linux |
+
+<h2 align="center">Previews</h2>
+
+<p align="center">Click a mod's name to expand its screenshot at full width.</p>
+
+<a id="previews-better-inputs"></a>
+<details>
+<summary><b>Better Inputs</b></summary>
+<br>
+<img src="mods/better-inputs/preview.jpg" width="900" alt="Better Inputs preview">
+</details>
+
+<a id="previews-damage-numbers"></a>
+<details>
+<summary><b>Damage Numbers</b></summary>
+<br>
+<img src="mods/damage-numbers/preview.jpg" width="900" alt="Damage Numbers preview">
+</details>
 
 ## Installing mods
 
