@@ -1,8 +1,9 @@
 # Damage Numbers
 
-**Author:** PurplefinNeptuna
-**Download:** [GameBanana](https://gamebanana.com/mods/725408)
-**Mod license:** see the mod's GameBanana page
+- **Author:** PurplefinNeptuna
+- **Download:** [GameBanana](https://gamebanana.com/mods/725408)
+- **Mod license:** see the mod's GameBanana page
+- **Status:** 🟢 Full compatibility
 
 ## Description
 

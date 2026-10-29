@@ -1,8 +1,9 @@
 # Xbox Controller Layout
 
-**Author:** ishiki
-**Download:** [GameBanana](https://gamebanana.com/mods/410801)
-**Mod license:** see the mod's GameBanana page
+- **Author:** ishiki
+- **Download:** [GameBanana](https://gamebanana.com/mods/410801)
+- **Mod license:** see the mod's GameBanana page
+- **Status:** 🟢 Full compatibility
 
 ## Description
 

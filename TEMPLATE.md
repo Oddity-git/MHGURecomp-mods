@@ -1,8 +1,11 @@
 # <Mod name>
 
-**Author:** <name, with a link to their profile>
-**Download:** <link to GameBanana, GitHub, Nexus, etc.>
-**Mod license:** <the author's license, or "not stated">
+- **Author:** <name, with a link to their profile>
+- **Download:** <link to GameBanana, GitHub, Nexus, etc.>
+- **Mod license:** <the author's license, or "not stated">
+- **Status:** <🟢 Full compatibility / 🟡 Some features missing / 🔴 Broken>
+
+![Preview](preview.png)
 
 ## Description
 
@@ -22,4 +25,4 @@
 
 ## Known issues
 
-<Anything that doesn't work, conflicts with other mods, or needs a setting changed. "None known" is fine.>
+<Required for 🟡 and 🔴: say what's missing or broken. Anything that doesn't work, conflicts with other mods, or needs a setting changed. "None known" is fine.>
