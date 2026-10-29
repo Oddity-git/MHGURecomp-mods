@@ -17,33 +17,107 @@ This repository only holds links and notes. No mod files are hosted here: downlo
 
 <h3 align="center">Mods</h3>
 
-| Preview | Mod | Status | Author | Download | Tested recomp version | Tested platform |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| [🖼️ View](#previews-better-inputs) | [Better Inputs](mods/better-inputs/README.md) | 🟢 | Fexty12573 | [GameBanana](https://gamebanana.com/mods/689270) | TBD | Linux |
-| [🖼️ View](#previews-damage-numbers) | [Damage Numbers](mods/damage-numbers/README.md) | 🟢 | PurplefinNeptuna | [GameBanana](https://gamebanana.com/mods/725408) | TBD | Linux |
-| — | [FF14-style Damage Text](mods/ff14-damage-text/README.md) | 🟢 | Filianore | [GameBanana](https://gamebanana.com/mods/727751) | TBD | Linux |
-| — | [Full DualShock Buttons](mods/dualshock-buttons/README.md) | 🟢 | Abbanon | [GameBanana](https://gamebanana.com/mods/475878) | TBD | Linux |
-| — | [Key Quest Markers](mods/key-quest-markers/README.md) | 🟢 | PurplefinNeptuna | [GameBanana](https://gamebanana.com/mods/727960) | TBD | Linux |
-| — | [Monster Weakness Icons](mods/weakness-icons/README.md) | 🟢 | Potobc | [GameBanana](https://gamebanana.com/mods/488552) | TBD | Linux |
-| — | [Xbox Controller Layout](mods/xbox-layout/README.md) | 🟢 | ishiki | [GameBanana](https://gamebanana.com/mods/410801) | TBD | Linux |
+<div align="center">
 
-<h2 align="center">Previews</h2>
+<table>
+<tr>
+<td align="center" width="380"><img src="mods/better-inputs/preview.jpg" width="360" alt="Better Inputs preview"></td>
+<td width="520">
+<h3><a href="mods/better-inputs/README.md">Better Inputs</a> 🟢</h3>
+<b>Author:</b> Fexty12573<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/689270">GameBanana</a><br>
+<b>Tested recomp version:</b> TBD<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/better-inputs/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
 
-<p align="center">Click a mod's name to expand its screenshot at full width.</p>
+<table>
+<tr>
+<td align="center" width="380"><img src="mods/damage-numbers/preview.jpg" width="360" alt="Damage Numbers preview"></td>
+<td width="520">
+<h3><a href="mods/damage-numbers/README.md">Damage Numbers</a> 🟢</h3>
+<b>Author:</b> PurplefinNeptuna<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/725408">GameBanana</a><br>
+<b>Tested recomp version:</b> TBD<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/damage-numbers/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
 
-<a id="previews-better-inputs"></a>
-<details>
-<summary><b>Better Inputs</b></summary>
-<br>
-<img src="mods/better-inputs/preview.jpg" width="900" alt="Better Inputs preview">
-</details>
+<table>
+<tr>
+<td align="center" width="380"><sub>No preview yet</sub></td>
+<td width="520">
+<h3><a href="mods/ff14-damage-text/README.md">FF14-style Damage Text</a> 🟢</h3>
+<b>Author:</b> Filianore<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/727751">GameBanana</a><br>
+<b>Tested recomp version:</b> TBD<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/ff14-damage-text/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
 
-<a id="previews-damage-numbers"></a>
-<details>
-<summary><b>Damage Numbers</b></summary>
-<br>
-<img src="mods/damage-numbers/preview.jpg" width="900" alt="Damage Numbers preview">
-</details>
+<table>
+<tr>
+<td align="center" width="380"><sub>No preview yet</sub></td>
+<td width="520">
+<h3><a href="mods/dualshock-buttons/README.md">Full DualShock Buttons</a> 🟢</h3>
+<b>Author:</b> Abbanon<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/475878">GameBanana</a><br>
+<b>Tested recomp version:</b> TBD<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/dualshock-buttons/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center" width="380"><sub>No preview yet</sub></td>
+<td width="520">
+<h3><a href="mods/key-quest-markers/README.md">Key Quest Markers</a> 🟢</h3>
+<b>Author:</b> PurplefinNeptuna<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/727960">GameBanana</a><br>
+<b>Tested recomp version:</b> TBD<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/key-quest-markers/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center" width="380"><sub>No preview yet</sub></td>
+<td width="520">
+<h3><a href="mods/weakness-icons/README.md">Monster Weakness Icons</a> 🟢</h3>
+<b>Author:</b> Potobc<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/488552">GameBanana</a><br>
+<b>Tested recomp version:</b> TBD<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/weakness-icons/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center" width="380"><sub>No preview yet</sub></td>
+<td width="520">
+<h3><a href="mods/xbox-layout/README.md">Xbox Controller Layout</a> 🟢</h3>
+<b>Author:</b> ishiki<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/410801">GameBanana</a><br>
+<b>Tested recomp version:</b> TBD<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/xbox-layout/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+</div>
 
 ## Installing mods
 
