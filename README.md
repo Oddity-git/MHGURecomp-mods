@@ -242,7 +242,21 @@ Have one? <a href="../../issues/new?template=submit-cheat.yml">Submit a cheat</a
 This is the same for every cheat, so entries here don't repeat it.</p>
 
 <!-- cheats:start -->
-<p align="center"><sub>No cheats listed yet.</sub></p>
+
+<details>
+<summary><b>Max gathers at every spot</b></summary>
+
+<b>What it does:</b> Gather points roll rand(32) &lt; N after each gather to run out early (N = 7 normally, 5 with Gathering +1, 3 with Gathering +2, 11 with Gathering -1). This makes N = 0, so every spot gives its full number of gathers. Patches the bl at 0x51b31c.<br>
+<b>Tested recomp version:</b> 0.10.7<br>
+<b>Tested platform:</b> Linux
+
+
+```text
+04000000 0031B31C E3A00000
+```
+
+</details>
+
 <!-- cheats:end -->
 
 ## Installing mods
