@@ -16,7 +16,7 @@ Shows damage as FF14-style text with move names for every weapon and distinct co
 
 | Recomp version or commit | Tested platform | Tested by | Date |
 | --- | --- | --- | --- |
-| TBD | Linux (CachyOS) | Oddity-git | TBD |
+| 0.10.7 | Linux (CachyOS) | Oddity-git | TBD |
 
 ## Install
 

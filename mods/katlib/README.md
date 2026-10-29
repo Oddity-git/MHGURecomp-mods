@@ -16,7 +16,7 @@ A shared library plugin for Katt404's Forge plugins. It does nothing on its own:
 
 | Recomp version or commit | Tested platform | Tested by | Date |
 | --- | --- | --- | --- |
-| TBD | Linux (CachyOS) | Oddity-git | TBD |
+| 0.10.7 | Linux (CachyOS) | Oddity-git | TBD |
 
 ## Install
 

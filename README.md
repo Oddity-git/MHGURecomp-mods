@@ -85,7 +85,7 @@ Each mod card says whether it requires Forge.</p>
 <b>Author:</b> Katt404<br>
 <b>Download:</b> <a href="https://gamebanana.com/mods/732712">GameBanana</a><br>
 <b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes<br>
-<b>Tested recomp version:</b> TBD<br>
+<b>Tested recomp version:</b> 0.10.7<br>
 <b>Tested platform:</b> Linux<br>
 <a href="mods/katlib/README.md">Install steps and details</a>
 </td>
@@ -107,7 +107,7 @@ Each mod card says whether it requires Forge.</p>
 <b>Author:</b> Fexty12573<br>
 <b>Download:</b> <a href="https://gamebanana.com/mods/689270">GameBanana</a><br>
 <b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes (1.4.0 or newer)<br>
-<b>Tested recomp version:</b> TBD<br>
+<b>Tested recomp version:</b> 0.10.7<br>
 <b>Tested platform:</b> Linux<br>
 <a href="mods/better-inputs/README.md">Install steps and details</a>
 </td>
@@ -122,7 +122,7 @@ Each mod card says whether it requires Forge.</p>
 <b>Author:</b> PurplefinNeptuna<br>
 <b>Download:</b> <a href="https://gamebanana.com/mods/725408">GameBanana</a><br>
 <b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes (1.4.1)<br>
-<b>Tested recomp version:</b> TBD<br>
+<b>Tested recomp version:</b> 0.10.7<br>
 <b>Tested platform:</b> Linux<br>
 <a href="mods/damage-numbers/README.md">Install steps and details</a>
 </td>
@@ -137,7 +137,7 @@ Each mod card says whether it requires Forge.</p>
 <b>Author:</b> Filianore<br>
 <b>Download:</b> <a href="https://gamebanana.com/mods/727751">GameBanana</a><br>
 <b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes (1.4.1)<br>
-<b>Tested recomp version:</b> TBD<br>
+<b>Tested recomp version:</b> 0.10.7<br>
 <b>Tested platform:</b> Linux<br>
 <a href="mods/ff14-damage-text/README.md">Install steps and details</a>
 </td>
@@ -152,7 +152,7 @@ Each mod card says whether it requires Forge.</p>
 <b>Author:</b> Abbanon<br>
 <b>Download:</b> <a href="https://gamebanana.com/mods/475878">GameBanana</a><br>
 <b>Requires <a href="mods/forge/README.md">Forge</a>:</b> No<br>
-<b>Tested recomp version:</b> TBD<br>
+<b>Tested recomp version:</b> 0.10.7<br>
 <b>Tested platform:</b> Linux<br>
 <a href="mods/dualshock-buttons/README.md">Install steps and details</a>
 </td>
@@ -167,7 +167,7 @@ Each mod card says whether it requires Forge.</p>
 <b>Author:</b> PurplefinNeptuna<br>
 <b>Download:</b> <a href="https://gamebanana.com/mods/727960">GameBanana</a><br>
 <b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes (1.5.1)<br>
-<b>Tested recomp version:</b> TBD<br>
+<b>Tested recomp version:</b> 0.10.7<br>
 <b>Tested platform:</b> Linux<br>
 <a href="mods/key-quest-markers/README.md">Install steps and details</a>
 </td>
@@ -227,7 +227,7 @@ Each mod card says whether it requires Forge.</p>
 <b>Author:</b> Potobc<br>
 <b>Download:</b> <a href="https://gamebanana.com/mods/488552">GameBanana</a><br>
 <b>Requires <a href="mods/forge/README.md">Forge</a>:</b> No<br>
-<b>Tested recomp version:</b> TBD<br>
+<b>Tested recomp version:</b> 0.10.7<br>
 <b>Tested platform:</b> Linux<br>
 <a href="mods/weakness-icons/README.md">Install steps and details</a>
 </td>
@@ -257,7 +257,7 @@ Each mod card says whether it requires Forge.</p>
 <b>Author:</b> ishiki<br>
 <b>Download:</b> <a href="https://gamebanana.com/mods/410801">GameBanana</a><br>
 <b>Requires <a href="mods/forge/README.md">Forge</a>:</b> No<br>
-<b>Tested recomp version:</b> TBD<br>
+<b>Tested recomp version:</b> 0.10.7<br>
 <b>Tested platform:</b> Linux<br>
 <a href="mods/xbox-layout/README.md">Install steps and details</a>
 </td>
@@ -348,7 +348,7 @@ Don't use them to spoil other people's games.</p>
 <summary><b>Max quest rewards</b></summary>
 
 <b>What it does:</b> The game rolls each extra reward slot as: luck &gt; rand(32). luck comes from 0x5822bc: 31 with Miraculous Luck, 28 Great, 25 Good, 22 with no luck skill, 16 / 8 for Bad / Horrible. Both reward count functions (0x581fec, 0x582e1c) ask it. This makes it always answer 32, so every roll succeeds and every reward screen gets the most slots (8).<br>
-<b>Tested recomp version:</b> 0.107<br>
+<b>Tested recomp version:</b> 0.10.7<br>
 <b>Tested platform:</b> Linux
 
 
