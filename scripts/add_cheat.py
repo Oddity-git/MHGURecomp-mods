@@ -47,7 +47,7 @@ def entry(fields):
     if code_part:
         code_block = f'<b>Cheat:</b> <a href="{html.escape(code_part)}">{html.escape(code_part)}</a>'
     else:
-        code_block = f"\n```text\n{code}\n```\n"
+        code_block = f"\n```text\n[{name}]\n{code}\n```\n"
     return name, f"<details>\n<summary><b>{html.escape(name)}</b></summary>\n\n{body}\n\n{code_block}\n</details>\n"
 
 
