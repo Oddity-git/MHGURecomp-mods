@@ -6,6 +6,8 @@
 - **Mod license:** see the mod's GitHub page
 - **Status:** 🟢 Full compatibility
 
+![Preview](preview.jpg)
+
 ## Description
 
 An environment for linking, runtime hooking and code patching in Monster Hunter Generations Ultimate
