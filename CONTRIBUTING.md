@@ -1,6 +1,14 @@
 # Contributing
 
-Thanks for helping grow the list. To keep it useful:
+Thanks for helping grow the list.
+
+## The easy way: submit a mod
+
+Open a [Submit a mod](../../issues/new?template=submit-mod.yml) issue and fill in the form: the mod's GameBanana or GitHub link, the recomp version and platform you tested on, and a compatibility status. A bot reads the mod's name, author and screenshot, builds its page and card, and opens a pull request for a maintainer to review. You don't need to edit any files.
+
+## The manual way
+
+If you'd rather open a pull request yourself, follow these rules to keep the list useful:
 
 1. **Links only.** Never commit mod files, game files, or extracted assets. Link to the author's own release page (GameBanana, GitHub, etc.).
 2. **Tested mods only.** Only add a mod you have run with MHGU Recomp yourself, and fill in the "Tested with" table honestly.

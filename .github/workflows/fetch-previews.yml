@@ -22,7 +22,9 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pillow
-      - run: python scripts/fetch_previews.py ${{ github.event.inputs.mods }}
+      - run: python scripts/fetch_previews.py $MODS
+        env:
+          MODS: ${{ github.event.inputs.mods }}
       - name: Commit new previews
         run: |
           git config user.name "github-actions[bot]"

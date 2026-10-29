@@ -1,0 +1,56 @@
+name: Add submitted mod
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  add:
+    if: contains(github.event.issue.labels.*.name, 'mod-submission')
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+      # Issue text and mod names come from outside, so they only ever reach the
+      # shell through environment variables, never through ${{ }} in a script.
+      ISSUE_BODY: ${{ github.event.issue.body }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - name: Build the mod page and card
+        id: build
+        run: |
+          if out=$(python scripts/add_mod.py 2>&1); then
+            # the script prints only the folder name, which is limited to a-z, 0-9 and "-"
+            echo "slug=$(echo "$out" | tail -1)" >> "$GITHUB_OUTPUT"
+          else
+            gh issue comment "$ISSUE_NUMBER" --body "Sorry, I couldn't add this mod: $(echo "$out" | tail -1). Edit the issue and I'll try again, or open a new submission."
+            exit 1
+          fi
+      - name: Open a pull request
+        env:
+          SLUG: ${{ steps.build.outputs.slug }}
+        run: |
+          name=$(head -1 "mods/$SLUG/README.md" | sed 's/^# //')
+          branch="submit-mod-$ISSUE_NUMBER"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add -A
+          git commit -m "Add $name (from #$ISSUE_NUMBER)"
+          git push origin "$branch"
+          if gh pr create --base main --head "$branch" \
+               --title "Add $name" \
+               --body "Adds the mod submitted in #$ISSUE_NUMBER. Closes #$ISSUE_NUMBER when merged."; then
+            gh issue comment "$ISSUE_NUMBER" --body "Thanks! I've opened a pull request for review."
+          else
+            gh issue comment "$ISSUE_NUMBER" --body "I've prepared the mod on branch \`$branch\`, but could not open the pull request automatically. A maintainer can open it from there."
+          fi

@@ -1,0 +1,61 @@
+name: Submit a mod
+description: Add a mod you have tested with MHGU Recomp to the directory.
+title: "Add mod: "
+labels: ["mod-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Fill this in and a bot will build the mod's page and card for review.
+        Only submit mods you have tested yourself. Mod files are never hosted here, only links.
+  - type: input
+    id: link
+    attributes:
+      label: Mod link
+      description: The mod's GameBanana page (`https://gamebanana.com/mods/123456`) or GitHub repository (`https://github.com/owner/repo`).
+      placeholder: https://gamebanana.com/mods/123456
+    validations:
+      required: true
+  - type: input
+    id: recomp_version
+    attributes:
+      label: MHGU Recomp version tested
+      description: A release number or commit.
+      placeholder: "0.9.10"
+    validations:
+      required: true
+  - type: input
+    id: game_version
+    attributes:
+      label: Game version tested
+      placeholder: "1.4.0"
+    validations:
+      required: false
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Tested platform
+      options:
+        - Linux
+        - Windows
+        - Steam Deck
+        - macOS
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Compatibility
+      options:
+        - "🟢 Full compatibility"
+        - "🟡 Some features missing"
+        - "🔴 Broken"
+    validations:
+      required: true
+  - type: textarea
+    id: issues
+    attributes:
+      label: Known issues
+      description: Required for 🟡 and 🔴. Say what is missing or broken. Leave empty if none.
+    validations:
+      required: false
