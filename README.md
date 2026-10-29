@@ -257,6 +257,21 @@ This is the same for every cheat, so entries here don't repeat it.</p>
 
 </details>
 
+<details>
+<summary><b>Max quest rewards</b></summary>
+
+<b>What it does:</b> The game rolls each extra reward slot as: luck &gt; rand(32). luck comes from 0x5822bc: 31 with Miraculous Luck, 28 Great, 25 Good, 22 with no luck skill, 16 / 8 for Bad / Horrible. Both reward count functions (0x581fec, 0x582e1c) ask it. This makes it always answer 32, so every roll succeeds and every reward screen gets the most slots (8).<br>
+<b>Tested recomp version:</b> 0.107<br>
+<b>Tested platform:</b> Linux
+
+
+```text
+04000000 003822BC E3A00020
+04000000 003822C0 E12FFF1E
+```
+
+</details>
+
 <!-- cheats:end -->
 
 ## Installing mods
