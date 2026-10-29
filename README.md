@@ -138,6 +138,21 @@ Each mod card says whether it requires Forge.</p>
 
 <table>
 <tr>
+<td align="center" width="380"><img src="mods/mhgu-xx-rebalanced/preview.jpg" width="360" alt="mhgu-xx-rebalanced preview"></td>
+<td width="520">
+<h3><a href="mods/mhgu-xx-rebalanced/README.md">MHGU/XX Rebalanced</a> 🟢</h3>
+<b>Author:</b> Potobc<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/447835">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> No<br>
+<b>Tested recomp version:</b> 0.9.1.0<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/mhgu-xx-rebalanced/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><img src="mods/weakness-icons/preview.jpg" width="360" alt="weakness-icons preview"></td>
 <td width="520">
 <h3><a href="mods/weakness-icons/README.md">Monster Weakness Icons</a> 🟢</h3>
