@@ -15,6 +15,21 @@ and the versions and platforms it has been tested on.
 <sub>No mod files are hosted here, only links. Download each mod from its author's page.</sub>
 </p>
 
+## Installing mods
+
+Every mod here is for MHGU 1.4.0, the game's final update, which MHGU Recomp requires, so game versions aren't listed.
+
+MHGU Recomp loads mods from a `mods` folder next to the recomp executable. Each mod gets its own folder:
+
+```
+mods/
+└── <mod-name>/
+    ├── romfs/   # replacement game data files
+    └── exefs/   # exefs patches
+```
+
+Most mods only use one of the two folders. If a mod was packaged for an emulator (for example Yuzu or Ryujinx `romfs`/`exefs` layout), copy those folders into `mods/<mod-name>/`. Check the mod's page here for anything specific to it.
+
 <h2 align="center">Mod list</h2>
 
 <p align="center">
@@ -341,21 +356,6 @@ This is the same for every cheat, so entries here don't repeat it.</p>
 </details>
 
 <!-- cheats:end -->
-
-## Installing mods
-
-Every mod here is for MHGU 1.4.0, the game's final update, which MHGU Recomp requires, so game versions aren't listed.
-
-MHGU Recomp loads mods from a `mods` folder next to the recomp executable. Each mod gets its own folder:
-
-```
-mods/
-└── <mod-name>/
-    ├── romfs/   # replacement game data files
-    └── exefs/   # exefs patches
-```
-
-Most mods only use one of the two folders. If a mod was packaged for an emulator (for example Yuzu or Ryujinx `romfs`/`exefs` layout), copy those folders into `mods/<mod-name>/`. Check the mod's page here for anything specific to it.
 
 ## Adding a mod
 
