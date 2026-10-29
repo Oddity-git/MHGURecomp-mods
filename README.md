@@ -1,16 +1,21 @@
 <h1 align="center">MHGURecomp-mods</h1>
 
 <p align="center">
-<a href="https://github.com/morerokk/MHGURecomp/releases/latest"><img src="https://img.shields.io/github/v/release/morerokk/MHGURecomp?style=for-the-badge&label=MHGU%20Recomp&color=2ea44f" alt="Latest MHGU Recomp version"></a>
-<a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contribute-add%20a%20mod-1f6feb?style=for-the-badge" alt="Contribute a mod"></a>
-<a href="https://github.com/morerokk/MHGURecomp"><img src="https://img.shields.io/badge/MHGU%20Recomp-source-6e5494?style=for-the-badge&logo=github" alt="MHGU Recomp repository"></a>
-<a href="../../issues/new?template=report-mod-issue.yml"><img src="https://img.shields.io/badge/Report-a%20mod%20issue-d73a49?style=for-the-badge" alt="Report a mod issue"></a>
-<a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0%201.0-lightgrey?style=for-the-badge" alt="CC0 1.0 license"></a>
+<a href="https://github.com/morerokk/MHGURecomp/releases/latest"><img src="https://img.shields.io/github/v/release/morerokk/MHGURecomp?style=flat&label=MHGU%20Recomp&color=2ea44f" alt="Latest MHGU Recomp version"></a>
+<a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contribute-add%20a%20mod-1f6feb?style=flat" alt="Contribute a mod"></a>
+<a href="https://github.com/morerokk/MHGURecomp"><img src="https://img.shields.io/badge/MHGU%20Recomp-source-6e5494?style=flat&logo=github" alt="MHGU Recomp repository"></a>
+<a href="../../issues/new?template=report-mod-issue.yml"><img src="https://img.shields.io/badge/Report-a%20mod%20issue-d73a49?style=flat" alt="Report a mod issue"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0%201.0-lightgrey?style=flat" alt="CC0 1.0 license"></a>
 </p>
 
 <p align="center">
-A curated directory of mods tested with <a href="https://github.com/morerokk/MHGURecomp">MHGU Recomp</a>, with links to each mod's download page, install steps, and the versions and platforms they've been tested on.<br>
-This repository only holds links and notes. No mod files are hosted here: download each mod from the page its author published it on.
+<b>A curated directory of mods tested with <a href="https://github.com/morerokk/MHGURecomp">MHGU Recomp</a></b><br>
+Each entry links to the mod's download page, with install steps<br>
+and the versions and platforms it has been tested on.
+</p>
+
+<p align="center">
+<sub>No mod files are hosted here, only links. Download each mod from its author's page.</sub>
 </p>
 
 <h2 align="center">Mod list</h2>
