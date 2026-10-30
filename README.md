@@ -180,6 +180,21 @@ These aren't mods you play with on their own, but many of the mods below need th
 
 <table>
 <tr>
+<td align="center" width="380"><a href="mods/mhgu-dps-meter/preview.jpg"><img src="mods/mhgu-dps-meter/card.jpg" width="360" alt="mhgu-dps-meter preview"></a></td>
+<td width="520">
+<h3><a href="mods/mhgu-dps-meter/README.md">MHGU DPS Meter</a> 🟡</h3>
+<b>Author:</b> sadgnk169<br>
+<b>Download:</b> <a href="https://github.com/sadgnk169/MHGU-DPS-Meter">GitHub</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes<br>
+<b>Tested recomp version:</b> 0.11.2<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/mhgu-dps-meter/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><a href="mods/mhgu-hd-project/preview.jpg"><img src="mods/mhgu-hd-project/card.jpg" width="360" alt="mhgu-hd-project preview"></a></td>
 <td width="520">
 <h3><a href="mods/mhgu-hd-project/README.md">MHGU HD Project</a> 🟢</h3>
