@@ -299,6 +299,21 @@ Cheats tested with MHGU Recomp. **Installing a cheat:** add the cheat's text to 
 <!-- cheats:start -->
 
 <details>
+<summary><b>Capture Guru always on</b></summary>
+
+<b>What it does:</b> Always have the ability to see when monsters are capturable<br>
+<b>Tested recomp version:</b> 0.11.8<br>
+<b>Tested platform:</b> Linux
+
+
+```text
+[Capture Guru always on]
+04000000 0061D034 E3A00001
+```
+
+</details>
+
+<details>
 <summary><b>Fast gathering x4</b></summary>
 
 <b>What it does:</b> The hunter&#x27;s animation speed is the float at player+0x14b0 (applied every frame, reset to 1.0 when an action starts). The gather action (0x4d4544) sets it to 1.1 / 0.7 for some motions and leaves 1.0 for the rest. Here its 14 motion calls go through two small stubs after main&#x27;s .text (0x13F1E90, 0x13F1EB0) that set it to 4.0 first, and its own 1.1 / 0.7 become 4.4 / 2.8. Other actions are untouched.<br>
