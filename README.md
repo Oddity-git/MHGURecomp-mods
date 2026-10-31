@@ -375,6 +375,25 @@ Cheats tested with MHGU Recomp. **Installing a cheat:** add the cheat's text to 
 
 </details>
 
+<details>
+<summary><b>Skill points x2</b></summary>
+
+<b>What it does:</b> Doubles value of skill points from armor<br>
+<b>Tested recomp version:</b> 0.11.8<br>
+<b>Tested platform:</b> Linux
+
+
+```text
+[Skill points x2]
+04000000 000DFAB4 E1A00080
+04000000 000DFD38 E0822080
+04000000 000DFD44 E0820080
+04000000 000E024C E0822080
+04000000 000E0258 E0820080
+```
+
+</details>
+
 <!-- cheats:end -->
 
 <h2 align="center">Adding a mod</h2>
