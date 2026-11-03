@@ -329,6 +329,21 @@ Cheats tested with MHGU Recomp. **Installing a cheat:** add the cheat's text to 
 <!-- cheats:start -->
 
 <details>
+<summary><b>Automatically Display Map</b></summary>
+
+<b>What it does:</b> Automatically reveals the entire map at the start of a quest.<br>
+<b>Tested recomp version:</b> 0.13.1<br>
+<b>Tested platform:</b> Linux
+
+
+```text
+[Automatically Display Map]
+04000000 0061BAD0 E1A00000
+```
+
+</details>
+
+<details>
 <summary><b>Capture Guru always on</b></summary>
 
 <b>What it does:</b> Always have the ability to see when monsters are capturable<br>
