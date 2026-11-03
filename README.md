@@ -255,6 +255,21 @@ These aren't mods you play with on their own, but many of the mods below need th
 
 <table>
 <tr>
+<td align="center" width="380"><a href="mods/world-like-sharpness-gauge/preview.jpg"><img src="mods/world-like-sharpness-gauge/card.jpg" width="360" alt="world-like-sharpness-gauge preview"></a></td>
+<td width="520">
+<h3><a href="mods/world-like-sharpness-gauge/README.md">World(like) Sharpness Gauge</a> 🟢</h3>
+<b>Author:</b> PurplefinNeptuna<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/735541">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes (1.5.1)<br>
+<b>Tested recomp version:</b> 0.13.1<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/world-like-sharpness-gauge/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><a href="mods/xbox-layout/preview.jpg"><img src="mods/xbox-layout/card.jpg" width="360" alt="xbox-layout preview"></a></td>
 <td width="520">
 <h3><a href="mods/xbox-layout/README.md">Xbox Controller Layout</a> 🟢</h3>
