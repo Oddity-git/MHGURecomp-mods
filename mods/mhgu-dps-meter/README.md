@@ -4,7 +4,7 @@
 - **Download:** [GitHub](https://github.com/sadgnk169/MHGU-DPS-Meter)
 - **Requires [Forge](../forge/README.md):** Yes
 - **Mod license:** see the mod's GitHub page
-- **Status:** 🟡 Some features missing
+- **Status:** 🟢
 
 ![Preview](preview.jpg)
 
@@ -26,4 +26,4 @@ See the [GitHub page](https://github.com/sadgnk169/MHGU-DPS-Meter) for what this
 
 ## Known issues
 
-Has a minor UI issue but functions.
+
