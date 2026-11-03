@@ -329,6 +329,26 @@ Cheats tested with MHGU Recomp. **Installing a cheat:** add the cheat's text to 
 <!-- cheats:start -->
 
 <details>
+<summary><b>(Hold L3) Hunter Speed x2</b></summary>
+
+<b>What it does:</b> increases movement speed after pressing L3<br>
+<b>Tested recomp version:</b> 0.13.1<br>
+<b>Tested platform:</b> Linux
+
+
+```text
+[(Hold L3) Hunter Speed x2]
+80000010
+54000000 02126F48
+54001000 00000058
+78000000 000014B0
+64000000 00000000 40000000
+20000000
+```
+
+</details>
+
+<details>
 <summary><b>Capture Guru always on</b></summary>
 
 <b>What it does:</b> Always have the ability to see when monsters are capturable<br>
