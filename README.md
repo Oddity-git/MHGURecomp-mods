@@ -448,6 +448,21 @@ Cheats tested with MHGU Recomp. **Installing a cheat:** add the cheat's text to 
 </details>
 
 <details>
+<summary><b>Mark Boss</b></summary>
+
+<b>What it does:</b> Always keeps the boss paintballed.<br>
+<b>Tested recomp version:</b> 0.13.1<br>
+<b>Tested platform:</b> Linux
+
+
+```text
+[Mark Boss]
+04000000 0061CC94 E3A00001
+```
+
+</details>
+
+<details>
 <summary><b>Max gathers at every spot</b></summary>
 
 <b>What it does:</b> Gather points roll rand(32) &lt; N after each gather to run out early (N = 7 normally, 5 with Gathering +1, 3 with Gathering +2, 11 with Gathering -1). This makes N = 0, so every spot gives its full number of gathers. Patches the bl at 0x51b31c.<br>
