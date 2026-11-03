@@ -120,6 +120,21 @@ These aren't mods you play with on their own, but many of the mods below need th
 
 <table>
 <tr>
+<td align="center" width="380"><a href="mods/faster-field-hunter/preview.jpg"><img src="mods/faster-field-hunter/card.jpg" width="360" alt="faster-field-hunter preview"></a></td>
+<td width="520">
+<h3><a href="mods/faster-field-hunter/README.md">Faster Field Hunter</a> 🟢</h3>
+<b>Author:</b> Ellipse1638<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/735791">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes (1.0+)<br>
+<b>Tested recomp version:</b> 0.13.1<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/faster-field-hunter/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><a href="mods/ff14-damage-text/preview.jpg"><img src="mods/ff14-damage-text/card.jpg" width="360" alt="ff14-damage-text preview"></a></td>
 <td width="520">
 <h3><a href="mods/ff14-damage-text/README.md">FF14-style Damage Text</a> 🟢</h3>
