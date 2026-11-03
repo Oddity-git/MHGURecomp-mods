@@ -349,6 +349,26 @@ Cheats tested with MHGU Recomp. **Installing a cheat:** add the cheat's text to 
 </details>
 
 <details>
+<summary><b>(Hold L3) Hunter Speed x5</b></summary>
+
+<b>What it does:</b> Increases movement speed after pressing L3<br>
+<b>Tested recomp version:</b> 0.13.1<br>
+<b>Tested platform:</b> Linux
+
+
+```text
+[(Hold L3) Hunter Speed x5]
+80000010
+54000000 02126F48
+54001000 00000058
+78000000 000014B0
+64000000 00000000 40A00000
+20000000
+```
+
+</details>
+
+<details>
 <summary><b>Automatically Display Map</b></summary>
 
 <b>What it does:</b> Automatically reveals the entire map at the start of a quest.<br>
