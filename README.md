@@ -349,6 +349,21 @@ Cheats tested with MHGU Recomp. **Installing a cheat:** add the cheat's text to 
 </details>
 
 <details>
+<summary><b>Automatically Display Map</b></summary>
+
+<b>What it does:</b> Automatically reveals the entire map at the start of a quest.<br>
+<b>Tested recomp version:</b> 0.13.1<br>
+<b>Tested platform:</b> Linux
+
+
+```text
+[Automatically Display Map]
+04000000 0061BAD0 E1A00000
+```
+
+</details>
+
+<details>
 <summary><b>Capture Guru always on</b></summary>
 
 <b>What it does:</b> Always have the ability to see when monsters are capturable<br>
@@ -448,6 +463,21 @@ Cheats tested with MHGU Recomp. **Installing a cheat:** add the cheat's text to 
 08000000 013F1EF0 004474A0 E12FFF1E
 04000000 013F1EF8 00000058
 04000000 0029BD64 EB45582F
+```
+
+</details>
+
+<details>
+<summary><b>Mark Boss</b></summary>
+
+<b>What it does:</b> Always keeps the boss paintballed.<br>
+<b>Tested recomp version:</b> 0.13.1<br>
+<b>Tested platform:</b> Linux
+
+
+```text
+[Mark Boss]
+04000000 0061CC94 E3A00001
 ```
 
 </details>
