@@ -255,6 +255,21 @@ These aren't mods you play with on their own, but many of the mods below need th
 
 <table>
 <tr>
+<td align="center" width="380"><a href="mods/rise-chargeblade-for-alchemy-style/preview.jpg"><img src="mods/rise-chargeblade-for-alchemy-style/card.jpg" width="360" alt="rise-chargeblade-for-alchemy-style preview"></a></td>
+<td width="520">
+<h3><a href="mods/rise-chargeblade-for-alchemy-style/README.md">Rise Chargeblade for Alchemy Style</a> 🟢</h3>
+<b>Author:</b> morerokk<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/735956">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes<br>
+<b>Tested recomp version:</b> 0.14.0<br>
+<b>Tested platform:</b> Windows<br>
+<a href="mods/rise-chargeblade-for-alchemy-style/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><a href="mods/uiscale-hud-scale-and-layout-editor/preview.jpg"><img src="mods/uiscale-hud-scale-and-layout-editor/card.jpg" width="360" alt="uiscale-hud-scale-and-layout-editor preview"></a></td>
 <td width="520">
 <h3><a href="mods/uiscale-hud-scale-and-layout-editor/README.md">UIScale - HUD Scale and Layout Editor</a> 🟢</h3>
