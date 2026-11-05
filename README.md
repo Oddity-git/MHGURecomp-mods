@@ -240,6 +240,21 @@ These aren't mods you play with on their own, but many of the mods below need th
 
 <table>
 <tr>
+<td align="center" width="380"><a href="mods/modern-weapon-trees-armor-trees-wishlist/preview.jpg"><img src="mods/modern-weapon-trees-armor-trees-wishlist/card.jpg" width="360" alt="modern-weapon-trees-armor-trees-wishlist preview"></a></td>
+<td width="520">
+<h3><a href="mods/modern-weapon-trees-armor-trees-wishlist/README.md">Modern Weapon trees/Armor Trees/Wishlist</a> 🟢</h3>
+<b>Author:</b> Xyrezia<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/735331">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes (1.5.1)<br>
+<b>Tested recomp version:</b> 0.14.0<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/modern-weapon-trees-armor-trees-wishlist/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><a href="mods/weakness-icons/preview.jpg"><img src="mods/weakness-icons/card.jpg" width="360" alt="weakness-icons preview"></a></td>
 <td width="520">
 <h3><a href="mods/weakness-icons/README.md">Monster Weakness Icons</a> 🟢</h3>
