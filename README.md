@@ -165,6 +165,21 @@ These aren't mods you play with on their own, but many of the mods below need th
 
 <table>
 <tr>
+<td align="center" width="380"><a href="mods/hunters-compendium/preview.jpg"><img src="mods/hunters-compendium/card.jpg" width="360" alt="Hunter's Compendium weapon details, upgrade tree and crafting materials"></a></td>
+<td width="520">
+<h3><a href="mods/hunters-compendium/README.md">Hunter's Compendium</a> 🟢</h3>
+<b>Author:</b> <a href="https://github.com/Rikiar73574">Rikiar73574</a><br>
+<b>Download:</b> <a href="https://github.com/Rikiar73574/mhgu-compendium/releases/tag/v0.2.0">GitHub (v0.2.0)</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes (1.5.1, built into the tested Recomp build)<br>
+<b>Tested recomp version:</b> Stock source build <code>a272b61</code><br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/hunters-compendium/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><a href="mods/key-quest-markers/preview.jpg"><img src="mods/key-quest-markers/card.jpg" width="360" alt="key-quest-markers preview"></a></td>
 <td width="520">
 <h3><a href="mods/key-quest-markers/README.md">Key Quest Markers</a> 🟢</h3>
