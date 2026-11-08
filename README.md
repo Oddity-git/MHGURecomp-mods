@@ -90,6 +90,21 @@ These aren't mods you play with on their own, but many of the mods below need th
 
 <table>
 <tr>
+<td align="center" width="380"><a href="mods/armor-fusion/preview.jpg"><img src="mods/armor-fusion/card.jpg" width="360" alt="Armor Fusion native smithy menus"></a></td>
+<td width="520">
+<h3><a href="mods/armor-fusion/README.md">Armor Fusion</a> 🟢</h3>
+<b>Author:</b> <a href="https://github.com/Rikiar73574">Rikiar73574</a><br>
+<b>Download:</b> <a href="https://github.com/Rikiar73574/mhgu-armor-fusion/releases/tag/v0.1.0">GitHub</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes (1.5.1, built into tested Recomp)<br>
+<b>Tested recomp version:</b> Stock source build <code>a272b61</code><br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/armor-fusion/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><a href="mods/better-inputs/preview.jpg"><img src="mods/better-inputs/card.jpg" width="360" alt="better-inputs preview"></a></td>
 <td width="520">
 <h3><a href="mods/better-inputs/README.md">Better Inputs</a> 🟢</h3>
