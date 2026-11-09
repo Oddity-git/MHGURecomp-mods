@@ -285,6 +285,21 @@ These aren't mods you play with on their own, but many of the mods below need th
 
 <table>
 <tr>
+<td align="center" width="380"><sub>No preview yet</sub></td>
+<td width="520">
+<h3><a href="mods/monster-hp-overlay-for-mhgu-recomp/README.md">Monster HP Overlay for MHGU Recomp</a> 🟢</h3>
+<b>Author:</b> SeregiosHunter<br>
+<b>Download:</b> <a href="https://github.com/SeregiosHunter/Monster-HP-Overlay-for-MHGU-Recomp">GitHub</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> No<br>
+<b>Tested recomp version:</b> 0.15.2<br>
+<b>Tested platform:</b> Windows<br>
+<a href="mods/monster-hp-overlay-for-mhgu-recomp/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><a href="mods/weakness-icons/preview.jpg"><img src="mods/weakness-icons/card.jpg" width="360" alt="weakness-icons preview"></a></td>
 <td width="520">
 <h3><a href="mods/weakness-icons/README.md">Monster Weakness Icons</a> 🟢</h3>
