@@ -459,6 +459,34 @@ Cheats tested with MHGU Recomp. **Installing a cheat:** add the cheat's text to 
 </details>
 
 <details>
+<summary><b>Blademaster/Gunner Armor Transmog] - [Weapon Transmog</b></summary>
+
+<b>What it does:</b> Two transmog cheats meant to be used together: - [Blademaster/Gunner Armor Transmog]: lets you wear armor pieces from the other class (Blademaster / Gunner) cosmetically. - [Weapon Transmog]: lets you change the appearance of your weapon. Both cheats are in the same block above and should be added to the same cheat .txt file. - No points are needed for weapon transmog.<br>
+<b>Tested recomp version:</b> 0.16.0<br>
+<b>Tested platform:</b> Windows<br>
+<b>Known issues:</b> - Insect Glaive: weapon transmog removes the attached Kinsect. Before using it, first replace your Kinsect with a dummy Kinsect.
+
+
+```text
+[Blademaster/Gunner Armor Transmog] - [Weapon Transmog]
+[Blademaster/Gunner Armor Transmog]
+04000000 00140E9C E3866000
+04000000 00140F50 13866000
+
+[Weapon Transmog]
+04000000 000DAEE0 E3A00001
+04000000 000DAEFC 33000000
+04000000 000DDB5C EB01853F
+04000000 00283710 EBFAEE52
+04000000 002874EC EBFADEDB
+04000000 00140C20 E3520015
+04000000 00140C44 E2411016
+04000000 00140C48 E3510002
+```
+
+</details>
+
+<details>
 <summary><b>Capture Guru always on</b></summary>
 
 <b>What it does:</b> Always have the ability to see when monsters are capturable<br>
