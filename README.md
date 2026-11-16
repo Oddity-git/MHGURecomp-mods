@@ -105,6 +105,21 @@ These aren't mods you play with on their own, but many of the mods below need th
 
 <table>
 <tr>
+<td align="center" width="380"><a href="mods/better-box/preview.jpg"><img src="mods/better-box/card.jpg" width="360" alt="better-box preview"></a></td>
+<td width="520">
+<h3><a href="mods/better-box/README.md">Better Box</a> 🟢</h3>
+<b>Author:</b> Katt404<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/732709">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes (1.5.1)<br>
+<b>Tested recomp version:</b> 0.17.5<br>
+<b>Tested platform:</b> Windows<br>
+<a href="mods/better-box/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><a href="mods/better-inputs/preview.jpg"><img src="mods/better-inputs/card.jpg" width="360" alt="better-inputs preview"></a></td>
 <td width="520">
 <h3><a href="mods/better-inputs/README.md">Better Inputs</a> 🟢</h3>
