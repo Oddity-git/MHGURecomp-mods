@@ -6,6 +6,8 @@
 - **Mod license:** see the mod's GitHub page
 - **Status:** 🟢 Full compatibility
 
+![Preview](preview.jpg)
+
 ## Description
 
 Monster HP Overlay for MHGU Recomp, based on Alexander-Lancellott's project

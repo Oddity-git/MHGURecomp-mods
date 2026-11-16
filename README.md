@@ -285,7 +285,7 @@ These aren't mods you play with on their own, but many of the mods below need th
 
 <table>
 <tr>
-<td align="center" width="380"><sub>No preview yet</sub></td>
+<td align="center" width="380"><a href="mods/monster-hp-overlay-for-mhgu-recomp/preview.jpg"><img src="mods/monster-hp-overlay-for-mhgu-recomp/card.jpg" width="360" alt="monster-hp-overlay-for-mhgu-recomp preview"></a></td>
 <td width="520">
 <h3><a href="mods/monster-hp-overlay-for-mhgu-recomp/README.md">Monster HP Overlay for MHGU Recomp</a> 🟢</h3>
 <b>Author:</b> SeregiosHunter<br>
