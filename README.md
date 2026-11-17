@@ -255,6 +255,21 @@ These aren't mods you play with on their own, but many of the mods below need th
 
 <table>
 <tr>
+<td align="center" width="380"><a href="mods/mhgu-monster-health-bar/preview.jpg"><img src="mods/mhgu-monster-health-bar/card.jpg" width="360" alt="mhgu-monster-health-bar preview"></a></td>
+<td width="520">
+<h3><a href="mods/mhgu-monster-health-bar/README.md">MHGU Monster Health Bar</a> 🟢</h3>
+<b>Author:</b> yonams<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/739468">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes<br>
+<b>Tested recomp version:</b> 0.17.5<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/mhgu-monster-health-bar/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><a href="mods/mhgu-xx-rebalanced/preview.jpg"><img src="mods/mhgu-xx-rebalanced/card.jpg" width="360" alt="mhgu-xx-rebalanced preview"></a></td>
 <td width="520">
 <h3><a href="mods/mhgu-xx-rebalanced/README.md">MHGU/XX Rebalanced</a> 🟢</h3>
