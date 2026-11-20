@@ -31,4 +31,4 @@ The tested executable reports `0.15.0-stock-a272b61` and has no built-in Armor F
 
 - Caller-sensitive hooks require untouched stock entries; plugins patching those functions are unsupported.
 - All loaded NROs share Forge's 12 MiB plugin region.
-- When using Hunter's Compendium, install its [current release](https://github.com/Rikiar73574/mhgu-compendium/releases/latest), which includes the smithy-hook compatibility change.
+- When using MHGU Utility, install its [current release](https://github.com/Rikiar73574/mhgu-utility/releases/latest), which includes the smithy-hook compatibility change.
