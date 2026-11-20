@@ -360,6 +360,21 @@ These aren't mods you play with on their own, but many of the mods below need th
 
 <table>
 <tr>
+<td align="center" width="380"><a href="mods/steam-integration/preview.jpg"><img src="mods/steam-integration/card.jpg" width="360" alt="steam-integration preview"></a></td>
+<td width="520">
+<h3><a href="mods/steam-integration/README.md">Steam Integration</a> 🟢</h3>
+<b>Author:</b> Alixknd<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/740273">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> No<br>
+<b>Tested recomp version:</b> .17.5<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/steam-integration/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><a href="mods/uiscale-hud-scale-and-layout-editor/preview.jpg"><img src="mods/uiscale-hud-scale-and-layout-editor/card.jpg" width="360" alt="uiscale-hud-scale-and-layout-editor preview"></a></td>
 <td width="520">
 <h3><a href="mods/uiscale-hud-scale-and-layout-editor/README.md">UIScale - HUD Scale and Layout Editor</a> 🟢</h3>
