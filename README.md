@@ -345,6 +345,21 @@ These aren't mods you play with on their own, but many of the mods below need th
 
 <table>
 <tr>
+<td align="center" width="380"><a href="mods/multiplayer-roaming/preview.jpg"><img src="mods/multiplayer-roaming/card.jpg" width="360" alt="multiplayer-roaming preview"></a></td>
+<td width="520">
+<h3><a href="mods/multiplayer-roaming/README.md">Multiplayer Roaming</a> 🟢</h3>
+<b>Author:</b> PurplefinNeptuna<br>
+<b>Download:</b> <a href="https://gamebanana.com/mods/736527">GameBanana</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> Yes (1.5.1)<br>
+<b>Tested recomp version:</b> .17.5<br>
+<b>Tested platform:</b> Linux<br>
+<a href="mods/multiplayer-roaming/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><a href="mods/rise-chargeblade-for-alchemy-style/preview.jpg"><img src="mods/rise-chargeblade-for-alchemy-style/card.jpg" width="360" alt="rise-chargeblade-for-alchemy-style preview"></a></td>
 <td width="520">
 <h3><a href="mods/rise-chargeblade-for-alchemy-style/README.md">Rise Chargeblade for Alchemy Style</a> 🟢</h3>
