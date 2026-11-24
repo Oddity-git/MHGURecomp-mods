@@ -300,6 +300,21 @@ These aren't mods you play with on their own, but many of the mods below need th
 
 <table>
 <tr>
+<td align="center" width="380"><sub>No preview yet</sub></td>
+<td width="520">
+<h3><a href="mods/mhgurecomp-magnet-spike/README.md">MHGURecomp Magnet Spike</a> 🟢</h3>
+<b>Author:</b> 403JT<br>
+<b>Download:</b> <a href="https://github.com/403JT/MHGURecomp-Magnet-Spike">GitHub</a><br>
+<b>Requires <a href="mods/forge/README.md">Forge</a>:</b> No<br>
+<b>Tested recomp version:</b> 0.18.0<br>
+<b>Tested platform:</b> Windows<br>
+<a href="mods/mhgurecomp-magnet-spike/README.md">Install steps and details</a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td align="center" width="380"><a href="mods/modern-weapon-trees-armor-trees-wishlist/preview.jpg"><img src="mods/modern-weapon-trees-armor-trees-wishlist/card.jpg" width="360" alt="modern-weapon-trees-armor-trees-wishlist preview"></a></td>
 <td width="520">
 <h3><a href="mods/modern-weapon-trees-armor-trees-wishlist/README.md">Modern Weapon trees/Armor Trees/Wishlist</a> 🟢</h3>
